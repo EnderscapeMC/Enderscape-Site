@@ -1,0 +1,128 @@
+body, head {
+    font-family: monospace;
+}
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+div.menu {
+    margin: 10px;
+    width: 950px;
+}
+div.form {
+    width: 950px;
+    margin: 10px;
+}
+header {
+    margin: 10px;
+    width: 545px;
+}
+#header-title {
+    font-size: 50px;
+}
+nav a {
+    font-size: 25px;
+    border: 4px solid #6434ac;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+header p {
+    font-size: 15px;
+}
+table.menu img, h2 {
+    width: 250px;
+    border-radius: 15px;
+    color: #6434ac;
+    text-align: center;
+}
+table.menu tr th, 
+table.menu tr td {
+    border: 4px solid #6434ac;
+    border-radius: 15px;
+    padding: 20px 20px 10px 20px;
+    position: relative;
+    cursor: pointer;
+}
+table.menu {
+    border-spacing: 20px;
+}
+a:link {
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+}
+nav a:hover {
+    background: #6434ac;
+    color: #F0EED1;
+}
+table.menu tr th:hover,
+table.menu tr td:hover {
+  background: #6434ac;
+  color: #F0EED1;
+}
+table.menu tr th:hover h2,
+table.menu tr td:hover h2 {
+  color: #F0EED1;
+}
+form {
+    margin-top: 40px;
+}
+form input,
+form textarea {
+    width: 250px;
+    height: 25px;
+    margin-top: 5px;
+    border: 2px solid #6434ac;
+    border-radius: 6px;
+    padding: 0px 5px 0px 5px;
+}
+form input#image {
+    width: 700px;
+}
+form textarea#details {
+    width: 220px;
+}
+form label {
+    font-size: 18px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form-fields {
+    display: flex;
+}
+.form-field {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.field-instructions {
+    display: block;
+    font-style: italic;
+    font-size: 10px;
+    color: darkgray;
+    margin-top: 5px;
+}
+.button {
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    border: 4px solid #6434ac;
+    border-radius: 10px;
+    background-color: white;
+    color: #6434ac;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+.button:hover {
+    background: #6434ac;
+    color: #F0EED1;
+}
+
+
