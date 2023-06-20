@@ -1,0 +1,260 @@
+body, head {
+    font-family: monospace;
+}
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+div.menu {
+    margin: 10px;
+    width: 950px;
+}
+div.form {
+    width: 950px;
+    margin: 10px;
+}
+header {
+    margin: 10px;
+    width: 545px;
+}
+#header-title {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+nav a {
+    display: inline-block;
+    font-size: 25px;
+    border: 3px solid #6434ac;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    transition: transform 0.3s ease;
+}
+header p {
+    font-size: 15px;
+}
+a:link {
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+}
+nav a:hover {
+    background: #6434ac;
+    color: #F0EED1;
+}
+header a:hover {
+    transform: translateY(-5px);
+}
+form {
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+form input {
+    width: 400px;
+    height: 30px;
+    margin-top: 5px;
+    border: 2px solid #6434ac;
+    border-radius: 4px;
+    padding: 0px 5px 0px 5px;
+}
+
+/* radio container */
+.radio-container {
+    font-family: monospace;
+    color: #6434ac;
+    display: inline-block;
+    position: relative;
+    padding: 6px 6px 6px 25px;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+/* hide the browser's default radio button */
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+/* create a custom radio button */
+.radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    margin: 7px 7px 7px 0px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+  
+/* on mouse-over, add a grey background color */
+.radio-container:hover input ~ .radio {
+    background-color: #ccc;
+}
+  
+/* when the radio button is checked, add a blue background */
+.radio-container input:checked ~ .radio {
+    background-color: #6434ac;
+}
+  
+/* create the indicator (the dot/circle - hidden when not checked) */
+.radio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .radio:after {
+    display: inline-block;
+}
+  
+/* style the indicator (dot/circle) */
+.radio-container .radio:after {
+    top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: white;
+}
+
+form input#imageUpload {
+    width: 180px;
+    border: 0px !important;
+    margin-left: -4px;
+}
+form input#imageLink {
+    width: 875px;
+}
+form textarea#details {
+    min-width: 875px;
+    max-width: 875px;
+    min-height: 25px;
+    height: 90px;
+    max-height: 200px;
+    margin-top: 5px;
+    border: 2px solid #6434ac;
+    border-radius: 6px;
+    padding: 5px;
+}
+form label {
+    font-size: 18px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form-fields {
+    display: flex;
+}
+.form-field {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.field-instructions {
+    display: block;
+    font-style: italic;
+    font-size: 10px;
+    color: darkgray;
+    margin-top: 5px;
+}
+.button {
+    font-family: monospace;
+    font-size: 20px;
+    border: 3px solid #6434ac;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #6434ac;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transform: translate(0, 0);
+    transition: transform 0.3s ease;
+}
+.button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #6434ac;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+.button:hover:before {
+    opacity: 1;
+    transition: opacity 0s;
+}
+.button:hover {
+    color: #F0EED1;
+    transform: translateY(-5px);
+}
+p#outputErrorMessage,
+p#successMessage {
+    width: 890px;
+    padding: 6px;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+table.menu tr th:hover,
+table.menu tr td:hover {
+  background: rgba(100, 52, 172, 0.9);
+  color: #F0EED1;
+  transform: translate(0, -5px);
+}
+table.menu tr th:hover h2,
+table.menu tr td:hover h2 {
+  color: #F0EED1;
+}
+table.menu img, h2 {
+    font-weight: lighter;
+    width: 250px;
+    border-radius: 6px;
+    color: #F0EED1;
+    text-align: center;
+}
+table.menu tr th, 
+table.menu tr td {
+    background-color: rgba(100, 52, 172, 0.8);
+    border-radius: 6px;
+    padding: 20px 20px 10px 20px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+table.menu {
+    border-spacing: 20px;
+}
+table.menu a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+}
+table.menu a.suggest-option {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 12em 2em 12em 2em;
+    margin: -12em -2em -12em -2em;
+}
