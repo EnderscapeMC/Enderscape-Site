@@ -47,7 +47,8 @@ nav ul.menu li a {
     text-decoration: none;
     color: white;
 }
-nav ul.menu li a:hover {
+nav ul.menu li a:hover,
+a:hover#ip {
     color: rgb(119, 84, 171);
 }
 .notice {
