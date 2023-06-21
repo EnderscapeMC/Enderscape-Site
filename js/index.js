@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var ip = document.getElementById('ip');
-    var notification = document.getElementById('ip-notification');
+    var notification = document.getElementById('copy-notification');
 
     ip.addEventListener('click', function(event) {
       event.preventDefault();
@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('Failed to copy IP: ', err);
       });
     });
-    
+
     function showNotification() {
         notification.style.display = 'block';
         setTimeout(function() {
-            notifcation.style.display = 'none';
+            notification.style.display = 'none';
         }, 2000);
     }
-  });
+});
 

@@ -21,7 +21,7 @@ nav img {
     margin-left: 30px;
     text-decoration: none;
 }
-#ip-notification {
+#copy-notification {
     display: none;
     position: fixed;
     bottom: 10px;
@@ -31,7 +31,7 @@ nav img {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
 nav ul.menu {
     display: flex;
     justify-content: flex-end;
