@@ -4,11 +4,6 @@ html {
     background-repeat: no-repeat;
     font-family: Helvetica;
 }
-@media only screen and (max-width: 768px) {
-    html {
-        background-size: 100% 100vh;
-    }
-}
 nav {
     display: flex;
     align-items: center;
@@ -21,10 +16,22 @@ nav img {
     margin-left: 22px;
     width: 40px;
 }
-nav h3.ip {
+#ip {
     color: white;
     margin-left: 30px;
+    text-decoration: none;
 }
+#ip-notification {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 nav ul.menu {
     display: flex;
     justify-content: flex-end;
