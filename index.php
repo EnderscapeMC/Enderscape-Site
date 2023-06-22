@@ -21,7 +21,5 @@
                 </li>
             </ul>
         </nav>
-        <h2>Lands Leaderboard</h2>
-        <?php include("../includes/lands_database.php"); ?>
     </body>
 </html>

@@ -19,5 +19,6 @@
             </ul>
         </nav>
         <?php include('../includes/lands_database.php'); ?>
+        <?php include('../includes/mcmmo_database.php'); ?>
     </body>
 </html>
