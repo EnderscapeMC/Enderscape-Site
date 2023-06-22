@@ -56,27 +56,28 @@ header {
   margin-top: 0;
   padding-top: 15%;
 }
-#ip {
+#ip a {
   color: rgba(255, 255, 255);
   text-decoration: none;
+  display: inline-block;
 }
 a:hover#ip {
   color: rgb(225, 225, 225);
 }
 #notification {
   display: none;
-  position: fixed;
-  top: 65px;
-  left: 50px;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
   padding: 10px;
-  color: white;
+  color: rgb(225, 225, 225);;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .notice {
   display: block;
-  color: white;
+  color: rgb(225, 225, 225);;
   background: rgb(0, 0, 0, 0.8);
   border-radius: 10px;
   padding: 10px;
