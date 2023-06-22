@@ -1,0 +1,10 @@
+#leaderboard-table {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+  #leaderboard-table th,
+  #leaderboard-table td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid black;
+  }

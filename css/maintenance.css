@@ -21,7 +21,7 @@ nav img {
     margin-left: 30px;
     text-decoration: none;
 }
-#copy-notification {
+#notification {
     display: none;
     position: fixed;
     top: 65px;
