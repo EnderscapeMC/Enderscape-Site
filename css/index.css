@@ -49,6 +49,9 @@ header {
   width: 100%;
   text-align: center;
   color: rgba(255, 255, 255);
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
 }
 #title {
   font-size: 100px;
@@ -63,10 +66,12 @@ header {
 }
 a:hover#ip {
   color: rgb(225, 225, 225);
+  font-weight: bold;
 }
 #notification {
   display: none;
   padding: 10px;
+  margin-top: 15px;
   color: rgb(225, 225, 225);
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 4px;

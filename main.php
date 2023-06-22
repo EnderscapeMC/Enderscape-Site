@@ -23,7 +23,7 @@
             <h1 id="title">Enderscape</h1>
             <h3>Survival | Creative | Duels | Skyblock</h3>
             <div id="ip"><a href="#"><h3>IP: enderscape.net</h3></a></div>
-            <?php include('../includes/online_players.php'); ?>Players online: <?php echo $playersOnline; ?>
+            <?php include('../includes/online_players.php'); ?> Players Online: <?php echo $serverInfo['Players'] . "/" . $serverInfo['MaxPlayers']; ?>
             <div id="notification">IP has been copied to clipboard!</div>
         </header>
         <?php include('../includes/lands_database.php'); ?>
