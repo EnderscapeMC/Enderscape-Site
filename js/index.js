@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function showNotification() {
-      notification.style.display = 'block';
-      setTimeout(function() {
-          notification.style.display = 'none';
-      }, 2000);
+    notification.style.display = 'block';
+    setTimeout(function() {
+      notification.style.display = 'none';
+    }, 2000);
   }
 
   function updateLeaderboard() {
@@ -22,18 +22,13 @@ document.addEventListener('DOMContentLoaded', function() {
     xhr.open('GET', 'lands_database.php', true);
 
     xhr.onload = function() {
-        if (xhr.status >= 200 && xhr.status < 400) {
-            var response = xhr.responseText;
-            var leaderboardTable = document.getElementById('leaderboard-table');
-            leaderboardTable.innerHTML = response;
-        }
+      if (xhr.status >= 200 && xhr.status < 400) {
+        var response = xhr.responseText;
+        var leaderboardTable = document.getElementById('leaderboard-table');
+        leaderboardTable.innerHTML = response;
+      }
     };
 
     xhr.send();
-}
-
-updateLeaderboard();
-
-setInterval(updateLeaderboard, 3600000); 
+  }
 });
-
