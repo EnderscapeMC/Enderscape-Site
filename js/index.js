@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+  var header = document.getElementById('header');
+  var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+  header.style.height = windowHeight + 'px';
+
   var ip = document.getElementById('ip');
   var notification = document.getElementById('notification');
 

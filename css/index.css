@@ -1,41 +1,67 @@
 html {
-  background-color: black;
+  background-image: url("https://i.imgur.com/2JWVKWI.png");
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav {
   display: flex;
   align-items: center;
-  margin-top: -8px;
   width: 100%;
-  margin-left: -8px;
 }
 nav img {
-  margin-left: 22px;
   width: 40px;
   opacity: 40%;
+}
+nav img:hover, 
+nav ul.menu li:hover img {
+  opacity: 100%;
 }
 nav ul.menu {
   display: flex;
   justify-content: flex-end;
   flex-grow: 1;
   list-style-type: none;
-  margin: 0;
+  margin: 0px 20px 0px 0px;
   padding: 0;
 }
 nav ul.menu li {
-  margin: 0px 30px 0px 0px;
+  margin: 0px 0px 0px 25px;
+  display: inline-flex;
+  align-items: center;
+}
+nav ul.menu li img {
+  margin-right: 8px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  width: 15px;
+}
+nav ul.menu li h3 {
+  margin: 0px;
+  display: inline;
 }
 nav ul.menu li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.4);
 }
-nav ul.menu li a:hover,
-a:hover#ip {
+nav ul.menu li a:hover {
   color: rgb(225, 225, 225);
 }
+header {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  color: rgba(255, 255, 255);
+}
+#title {
+  font-size: 100px;
+  margin-bottom: 0;
+  margin-top: 15%;
+}
 #ip {
-  color: rgba(255, 255, 255, 0.4);
-  margin-left: 30px;
+  color: rgba(255, 255, 255);
   text-decoration: none;
+}
+a:hover#ip {
+  color: rgb(225, 225, 225);
 }
 #notification {
   display: none;
