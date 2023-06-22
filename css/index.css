@@ -66,15 +66,25 @@ a:hover#ip {
 }
 #notification {
   display: none;
-  position: absolute;
-  top: calc(100% + 10px);
-  left: 0;
+  position: relative;
   padding: 10px;
-  color: rgb(225, 225, 225);;
+  color: rgb(225, 225, 225);
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+#leaderboard-table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+#leaderboard-table th,
+#leaderboard-table td {
+  padding: 8px;
+  text-align: left;
+  border: 2px solid black;
+}
+
+/* .notice is specific to maintenance.html */
 .notice {
   display: block;
   color: rgb(225, 225, 225);;
@@ -87,14 +97,4 @@ a:hover#ip {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-#leaderboard-table {
-  border: 2px solid black;
-  border-collapse: collapse;
-}
-#leaderboard-table th,
-#leaderboard-table td {
-  padding: 8px;
-  text-align: left;
-  border: 2px solid black;
 }
