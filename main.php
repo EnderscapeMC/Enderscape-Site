@@ -9,9 +9,9 @@
     </head>
     <body>
         <nav>
-            <a href="#"><img src="https://i.imgur.com/lIQy2B7.png" alt="Desaturated version of the Enderscape logo, a Minecraft parrot."></a>
+            <a href="main.php"><img src="https://i.imgur.com/lIQy2B7.png" alt="Desaturated version of the Enderscape logo, a Minecraft parrot."></a>
             <ul class="menu">
-                <li><a href="#"><img src="https://i.imgur.com/l4QRrVE.png"><h3>Home</h3></a></li>
+                <li><a href="main.php"><img src="https://i.imgur.com/l4QRrVE.png"><h3>Home</h3></a></li>
                 <li><a href="#"><img src="https://i.imgur.com/bCnXOJ8.png"><h3>Wiki</h3></a></li>
                 <li><a href="#"><img src="https://i.imgur.com/QqcuOVh.png"><h3>Store</h3></a></li>
                 <li><a href="#"><img src="https://i.imgur.com/B94U44H.png"><h3>Vote</h3></a></li>
@@ -20,10 +20,10 @@
             </ul>
         </nav>
         <header id="header">
-            <h1 id="title">Enderscape</h1>
+            <a href="main.php"><h1 id="title">Enderscape</h1></a>
             <h3>Survival | Creative | Duels | Skyblock</h3>
             <div id="ip">
-                <a href="#"><h3>IP: enderscape.net</h3></a>
+                <a href="#"><h3>IP: enderscape.net</h3></a><br>
                 <?php include('../includes/online_players.php'); ?>
             </div>
             <div id="notification">IP has been copied to clipboard!</div>
