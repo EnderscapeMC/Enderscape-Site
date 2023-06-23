@@ -1,7 +1,7 @@
 html {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#home {
+.home {
   background-image: url("https://i.imgur.com/2JWVKWI.png");
   margin: -8px;
 }
