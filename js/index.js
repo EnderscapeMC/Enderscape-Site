@@ -41,3 +41,10 @@ document.addEventListener('DOMContentLoaded', function() {
     xhr.send();
   }
 });
+
+var nav = document.getElementById("nav");
+
+window.addEventListener('scroll', function() {
+  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  nav.style.top = scrollPosition + 'px';
+});

@@ -1,11 +1,16 @@
 html {
-  background-image: url("https://i.imgur.com/2JWVKWI.png");
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home {
+  background-image: url("https://i.imgur.com/2JWVKWI.png");
+  margin: -8px;
 }
 nav {
   display: flex;
   align-items: center;
+  position: fixed;
   width: 100%;
+  top: 0;
 }
 nav img {
   width: 40px;
