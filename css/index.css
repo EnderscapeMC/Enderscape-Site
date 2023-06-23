@@ -59,10 +59,16 @@ header {
   margin-top: 0;
   padding-top: 15%;
 }
+#ip {
+  padding: 0px 30px 0px 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
 #ip a {
   color: rgba(255, 255, 255);
   text-decoration: none;
   display: inline-block;
+  margin-bottom: 10px;
 }
 a:hover#ip {
   color: rgb(225, 225, 225);
