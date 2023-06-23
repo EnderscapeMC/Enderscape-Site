@@ -31,9 +31,14 @@
             </header>
         </div>
         <div class="leaderboards">
-            <?php include('../includes/lands_database.php'); ?>
-            <?php include('../includes/mcmmo_database.php'); ?>
-            <?php include('../includes/cmi_database.php'); ?>
+            <div class="leaderboard-column">
+                <?php echo $playtimeLeaderboard; ?>
+                <?php echo $balanceLeaderboard; ?>
+            </div>
+            <div class="leaderboard-column">
+                <?php echo $voteLeaderboard; ?>
+                <?php echo $rankLeaderboard; ?>
+            </div>
         </div>
     </body>
 </html>
