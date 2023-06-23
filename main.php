@@ -20,7 +20,7 @@
             </ul>
         </nav>
         <header id="header">
-            <a href="main.php"><h1 id="title">Enderscape</h1></a>
+            <h1 id="title">Enderscape</h1>
             <h3>Survival | Creative | Duels | Skyblock</h3>
             <div id="ip">
                 <a href="#"><h3>IP: enderscape.net</h3></a><br>
