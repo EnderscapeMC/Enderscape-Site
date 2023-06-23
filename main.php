@@ -30,8 +30,10 @@
                 <div id="notification">IP has been copied to clipboard!</div>
             </header>
         </div>
-        <?php include('../includes/lands_database.php'); ?>
-        <?php include('../includes/mcmmo_database.php'); ?>
-        <?php include('../includes/cmi_database.php'); ?>
+        <div class="leaderboards">
+            <?php include('../includes/lands_database.php'); ?>
+            <?php include('../includes/mcmmo_database.php'); ?>
+            <?php include('../includes/cmi_database.php'); ?>
+        </div>
     </body>
 </html>
