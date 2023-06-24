@@ -1,6 +1,9 @@
 html {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+body {
+  background-color: black;
+}
 .home {
   background-image: url("../images/tavern-night.png");
   background-repeat: no-repeat;
@@ -79,6 +82,14 @@ header {
   text-decoration: none;
   display: inline-block;
 }
+#ip h3 {
+  display: inline-block; 
+  margin-right: 10px;
+}
+#ip img {
+  width: 15px;
+  display: inline-block;
+}
 a:hover#ip {
   color: rgb(225, 225, 225);
   font-weight: bold;
@@ -93,15 +104,13 @@ a:hover#ip {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .wiki {
-  background-color: black;
+  width: 100%;
   color: white;
 }
 .left {
-  float: left;
   display: block;
 }
 .right {
-  float: right;
   display: block;
 }
 .wiki button {
@@ -110,6 +119,7 @@ a:hover#ip {
   color: black;
 }
 .leaderboards {
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
 }
