@@ -5,9 +5,9 @@
         <meta charset="utf-8">
         <title>Home</title>
         <link rel="icon" type="image/x-icon" href="https://i.imgur.com/mGLyODd.gifv">
-        <!--<script>
+        <script>
             window.location.href = "maintenance.html";
-         </script>-->
+        </script>
     </head>
     <body>
         <nav>
