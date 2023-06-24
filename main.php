@@ -39,8 +39,11 @@
                 <button type="button">Visit Wiki</button>
             </section>
         </div>
-        <div>
-            <table class="leaderboards">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path d="M500,98.9L0,6.1V0h1000v6.1L500,98.9z"></path>
+        </svg>
+        <div class="leaderboards">
+            <table>
                 <tr>
                     <th><h3 style='margin-bottom: 5px'>Balance Leaderboard</h3></th>
                     <th><h3 style='margin-bottom: 5px'>Lands Leaderboard</h3></th>

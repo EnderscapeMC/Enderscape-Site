@@ -117,13 +117,13 @@ a:hover#ip {
 }
 .left {
   flex: 1;
-  width: 30%;
 }
 .right {
-  flex: 1;
-  width: 70%;
+  flex: 2;
 }
 button {
+  font-weight: bold;
+  font-size: 15px;
   border: 3px solid white;
   border-radius: 6px;
   background-color: transparent;
@@ -156,8 +156,18 @@ button:hover {
   border: 3px solid #6434ac;
   transform: translateY(-5px);
 }
+svg {
+  height:100px; 
+  width:100%; 
+  vertical-align:bottom;
+}
+svg path {
+  fill:#000;
+}
 .leaderboards {
   background-color: white;
+}
+.leaderboards table {
   margin-left: auto;
   margin-right: auto;
 }
