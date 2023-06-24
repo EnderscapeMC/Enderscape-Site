@@ -29,6 +29,9 @@
                 </div>
                 <div id="notification">IP has been copied to clipboard!</div>
             </header>
+            <svg class="svgtop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path d="M500,100L0,0V100H1000V0L500,100z"></path>
+            </svg>
         </div>
         <div class="wiki">
             <section class="left">
@@ -39,7 +42,7 @@
                 <button type="button">Visit Wiki</button>
             </section>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+        <svg class="svgbottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
             <path d="M500,98.9L0,6.1V0h1000v6.1L500,98.9z"></path>
         </svg>
         <div class="leaderboards">

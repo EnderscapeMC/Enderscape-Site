@@ -160,6 +160,7 @@ svg {
   height:100px; 
   width:100%; 
   vertical-align:bottom;
+  background-color: white;
 }
 svg path {
   fill:#000;
