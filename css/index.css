@@ -104,14 +104,21 @@ a:hover#ip {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .wiki {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
   color: white;
+  margin: 0 auto;
+}
+.wiki h1{
+  font-size: 100px;
 }
 .left {
-  display: block;
+  flex: 1;
 }
 .right {
-  display: block;
+  flex: 1;
 }
 .wiki button {
   border-radius: 6px;
