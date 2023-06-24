@@ -32,7 +32,7 @@
         </div>
         <div class="wiki">
             <section class="left">
-                <h2>Wiki</h2>
+                <h1>Wiki</h1>
             </section>
             <section class="right">
                 <p>Ever wondered how the Lands menu works or how to make more money on the server? The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>

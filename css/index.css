@@ -107,12 +107,13 @@ a:hover#ip {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 70%;
   color: white;
   margin: 0 auto;
 }
 .wiki h1{
-  font-size: 100px;
+  font-size: 80px;
+  text-align: center;
 }
 .left {
   flex: 1;
@@ -120,10 +121,37 @@ a:hover#ip {
 .right {
   flex: 1;
 }
-.wiki button {
+button {
+  border: 3px solid #6434ac;
   border-radius: 6px;
-  background-color: white;
-  color: black;
+  background-color: transparent;
+  color: #6434ac;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transform: translate(0, 0);
+  transition: transform 0.3s ease;
+}
+button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #6434ac;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+button:hover:before {
+  opacity: 1;
+  transition: opacity 0s;
+}
+button:hover {
+  color: #F0EED1;
+  transform: translateY(-5px);
 }
 .leaderboards {
   background-color: white;
