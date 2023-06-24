@@ -117,9 +117,11 @@ a:hover#ip {
 }
 .left {
   flex: 1;
+  width: 30%;
 }
 .right {
   flex: 1;
+  width: 70%;
 }
 button {
   border: 3px solid white;
