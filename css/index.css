@@ -92,16 +92,20 @@ a:hover#ip {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.leaderboards-section {
+  margin-left: auto;
+  margin-right: auto;
+}
 #leaderboard-table {
   border: 2px solid black;
   border-collapse: collapse;
-  width: 400px;
 }
 #leaderboard-table th,
 #leaderboard-table td {
   padding: 8px;
   text-align: left;
   border: 2px solid black;
+  width: 200px;
 }
 
 /* .notice is specific to maintenance.html */
