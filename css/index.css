@@ -122,10 +122,10 @@ a:hover#ip {
   flex: 1;
 }
 button {
-  border: 3px solid #6434ac;
+  border: 3px solid white;
   border-radius: 6px;
   background-color: transparent;
-  color: #6434ac;
+  color: white;
   padding: 5px 10px 5px 10px;
   cursor: pointer;
   position: relative;
@@ -151,6 +151,7 @@ button:hover:before {
 }
 button:hover {
   color: #F0EED1;
+  border: 3px solid #6434ac;
   transform: translateY(-5px);
 }
 .leaderboards {
