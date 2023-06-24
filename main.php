@@ -30,8 +30,8 @@
                 <div id="notification">IP has been copied to clipboard!</div>
             </header>
         </div>
-        <div class="leaderboards-section">
-            <table>
+        <div>
+            <table class="leaderboards">
                 <tr>
                     <th><h3 style='margin-bottom: 5px'>Lands Leaderboard</h3></th>
                     <th><h3 style='margin-bottom: 5px'>McMMO Power Leaderboard</h3></th>
