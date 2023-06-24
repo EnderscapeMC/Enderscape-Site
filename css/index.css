@@ -156,7 +156,13 @@ button:hover {
   border: 3px solid #6434ac;
   transform: translateY(-5px);
 }
-svg {
+.svgtop {
+  height:100px; 
+  width:100%; 
+  vertical-align:bottom; 
+  background: transparent;
+}
+.svgbottom {
   height:100px; 
   width:100%; 
   vertical-align:bottom;
