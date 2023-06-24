@@ -33,7 +33,10 @@
         <div class="leaderboards">
             <?php include('../includes/lands_database.php'); ?>
             <?php include('../includes/mcmmo_database.php'); ?>
-            <?php include('../includes/cmi_database.php'); ?>
+            <?php include('../includes/balance_cmi_database.php'); ?>
+            <?php include('../includes/rank_cmi_database.php'); ?>
+            <?php include('../includes/votes_cmi_database.php'); ?>
+            <?php include('../includes/playtime_cmi_database.php'); ?>
         </div>
     </body>
 </html>
