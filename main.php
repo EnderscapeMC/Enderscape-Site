@@ -13,8 +13,8 @@
                 <a href="#home" onclick="smoothScroll(event, 'home')"><img src="images/enderscape-logo.png" alt="Desaturated version of the Enderscape logo, a Minecraft parrot."></a>
                 <ul class="menu">
                     <li><a href="#home" onclick="smoothScroll(event, 'home')"><img src="images/home-icon.png"><h3>Home</h3></a></li>
-                    <li><a href="#wiki" onclick="smoothScroll(event, 'wiki')"><img src="images/wiki-icon.png"><h3>Wiki</h3></a></li>
                     <li><a href="#leaderboards" onclick="smoothScroll(event, 'leaderboards')"><img src="images/leaderboard-icon.png"><h3>Leaderboards</h3></a></li>
+                    <li><a href="#wiki" onclick="smoothScroll(event, 'wiki')"><img src="images/wiki-icon.png"><h3>Wiki</h3></a></li>
                     <li><a href="#store" onclick="smoothScroll(event, 'store')"><img src="images/store-icon.png"><h3>Store</h3></a></li>
                     <li><a href="#vote" onclick="smoothScroll(event, 'vote')"><img src="images/vote-icon.png"><h3>Vote</h3></a></li>
                     <li><a href="#discord" onclick="smoothScroll(event, 'discord')"><img src="images/discord-icon.png"><h3>Discord</h3></a></li>
@@ -33,16 +33,6 @@
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path data-v-6da3ec0c="" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
             </svg>
-        </div>
-        <div id="wiki">
-            <section class="left">
-                <h1>Wiki</h1>
-            </section>
-            <section class="right">
-                <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
-                <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
-                <button type="button">Visit Wiki</button>
-            </section>
         </div>
         <div id="leaderboards">
             <table>
@@ -67,6 +57,16 @@
                     <td><?php include('../includes/playtime_cmi_database.php'); ?></td>
                 </tr>
             </table>
+        </div>
+        <div id="wiki">
+            <section class="left">
+                <h1>Wiki</h1>
+            </section>
+            <section class="right">
+                <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
+                <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
+                <button type="button">Visit Wiki</button>
+            </section>
         </div>
     </body>
 </html>

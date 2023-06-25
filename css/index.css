@@ -105,11 +105,11 @@ a:hover#ip {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 #wiki {
+  background-image: url("../images/sunrise.png");
   display: flex;
   justify-content: center;
   align-items: center;
   width: 70%;
-  color: white;
   margin: 0 auto;
   margin-top: 50px;
 }
