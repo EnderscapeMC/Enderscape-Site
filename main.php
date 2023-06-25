@@ -8,17 +8,17 @@
         <script src="js/index.js"></script> 
     </head>
     <body>
-        <div class="home">
+        <div id="home">
             <nav id="nav">
-                <a href="main.php"><img src="images/enderscape-logo.png" alt="Desaturated version of the Enderscape logo, a Minecraft parrot."></a>
+                <a href="#home" onclick="smoothScroll(event, 'home')"><img src="images/enderscape-logo.png" alt="Desaturated version of the Enderscape logo, a Minecraft parrot."></a>
                 <ul class="menu">
-                    <li><a href="main.php"><img src="images/home-icon.png"><h3>Home</h3></a></li>
-                    <li><a href="#wiki"><img src="images/wiki-icon.png"><h3>Wiki</h3></a></li>
-                    <li><a href="#leaderboards"><img src="images/leaderboard-icon.png"><h3>Leaderboards</h3></a></li>
-                    <li><a href="#store"><img src="images/store-icon.png"><h3>Store</h3></a></li>
-                    <li><a href="#vote"><img src="images/vote-icon.png"><h3>Vote</h3></a></li>
-                    <li><a href="#discord"><img src="images/discord-icon.png"><h3>Discord</h3></a></li>
-                    <li><a href="#quizzes"><img src="images/quizzes-icon.png"><h3>Quizzes</h3></a></li>
+                    <li><a href="#home" onclick="smoothScroll(event, 'home')"><img src="images/home-icon.png"><h3>Home</h3></a></li>
+                    <li><a href="#wiki" onclick="smoothScroll(event, 'wiki')"><img src="images/wiki-icon.png"><h3>Wiki</h3></a></li>
+                    <li><a href="#leaderboards" onclick="smoothScroll(event, 'leaderboards')"><img src="images/leaderboard-icon.png"><h3>Leaderboards</h3></a></li>
+                    <li><a href="#store" onclick="smoothScroll(event, 'store')"><img src="images/store-icon.png"><h3>Store</h3></a></li>
+                    <li><a href="#vote" onclick="smoothScroll(event, 'vote')"><img src="images/vote-icon.png"><h3>Vote</h3></a></li>
+                    <li><a href="#discord" onclick="smoothScroll(event, 'discord')"><img src="images/discord-icon.png"><h3>Discord</h3></a></li>
+                    <li><a href="#quizzes" onclick="smoothScroll(event, 'quizzes')"><img src="images/quizzes-icon.png"><h3>Quizzes</h3></a></li>
                 </ul>
             </nav>
             <header id="header">

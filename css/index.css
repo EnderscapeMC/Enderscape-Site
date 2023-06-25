@@ -4,7 +4,7 @@ html {
 body {
   background-color: black;
 }
-.home {
+#home {
   background-image: url("../images/tavern-night.png");
   background-repeat: no-repeat;
   background-size: cover;

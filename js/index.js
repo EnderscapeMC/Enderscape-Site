@@ -48,3 +48,13 @@ window.addEventListener('scroll', function() {
   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   nav.style.top = scrollPosition + 'px';
 });
+
+function smoothScroll(event, targetId) {
+  event.preventDefault();
+
+  const target = document.getElementById(targetId);
+  window.scrollTo({
+      top: target.offsetTop,
+      behavior: 'smooth'
+  });
+}
