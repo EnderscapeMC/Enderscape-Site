@@ -155,12 +155,13 @@ button:before {
   z-index: -1;
 }
 button:hover:before {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0s;
 }
 button:hover {
-  color: transparent;
+  color: white;
   border: 2px solid white;
+  background-color: white;
   transform: translateY(-5px);
 }
 svg {
