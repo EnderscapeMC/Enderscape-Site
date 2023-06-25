@@ -103,7 +103,7 @@ a:hover#ip {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.wiki {
+#wiki {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +112,7 @@ a:hover#ip {
   margin: 0 auto;
   margin-top: 50px;
 }
-.wiki h1{
+#wiki h1{
   font-size: 80px;
   text-align: center;
 }
@@ -125,11 +125,11 @@ a:hover#ip {
 button {
   font-weight: bold;
   font-size: 15px;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 6px;
   background-color: transparent;
   color: white;
-  padding: 5px 10px 5px 10px;
+  padding: 10px 15px 10px 15px;
   cursor: pointer;
   position: relative;
   z-index: 1;
@@ -154,28 +154,19 @@ button:hover:before {
 }
 button:hover {
   color: #F0EED1;
-  border: 3px solid #6434ac;
+  border: 2px solid #6434ac;
   transform: translateY(-5px);
 }
-.svgtop {
-  height:100px; 
-  width:100%; 
-  vertical-align:bottom; 
-  background: transparent;
-}
-.svgbottom {
-  height:100px; 
-  width:100%; 
-  vertical-align:bottom;
-  background-color: white;
+svg {
+  width: calc(100% + 1.3px);
+  height: 56px;
+  transform: scale(-1, -1);
+  margin-bottom: -4px;
 }
 svg path {
   fill:#000;
 }
-.leaderboards {
-  background-color: white;
-}
-.leaderboards table {
+#leaderboards table {
   margin-left: auto;
   margin-right: auto;
 }
