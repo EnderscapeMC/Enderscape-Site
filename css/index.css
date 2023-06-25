@@ -105,13 +105,18 @@ a:hover#ip {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 #wiki {
-  background-image: url("../images/sunrise.png");
+  background-image: url(../images/sunrise.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  color: white;
+}
+#wiki div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
   margin: 0 auto;
-  margin-top: 50px;
+  width: 70%;
 }
 #wiki h1{
   font-size: 80px;
@@ -144,7 +149,7 @@ button:before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #6434ac;
+  background: white;
   opacity: 0;
   transition: opacity 0.3s ease;
   z-index: -1;
@@ -154,8 +159,8 @@ button:hover:before {
   transition: opacity 0s;
 }
 button:hover {
-  color: #F0EED1;
-  border: 2px solid #6434ac;
+  color: transparent;
+  border: 2px solid white;
   transform: translateY(-5px);
 }
 svg {
@@ -168,12 +173,15 @@ svg {
 svg path {
   fill:#000;
 }
+#leaderboards {
+  color: white;
+}
 #leaderboards table {
   margin-left: auto;
   margin-right: auto;
 }
 #leaderboard-table {
-  border: 2px solid black;
+  border: 2px solid white;
   border-collapse: collapse;
   margin: 0px 10px 0px 10px;
 }
@@ -181,7 +189,7 @@ svg path {
 #leaderboard-table td {
   padding: 8px;
   text-align: left;
-  border: 2px solid black;
+  border: 2px solid white;
   width: 155px;
 }
 

@@ -59,14 +59,16 @@
             </table>
         </div>
         <div id="wiki">
-            <section class="left">
-                <h1>Wiki</h1>
-            </section>
-            <section class="right">
-                <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
-                <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
-                <button type="button">Visit Wiki</button>
-            </section>
+            <div>
+                <section class="left">
+                    <h1>Wiki</h1>
+                </section>
+                <section class="right">
+                    <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
+                    <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
+                    <button type="button">Visit Wiki</button>
+                </section>
+            </div>
         </div>
     </body>
 </html>
