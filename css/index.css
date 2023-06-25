@@ -164,6 +164,9 @@ button:hover {
   background-color: white;
   transform: translateY(-5px);
 }
+button:hover span {
+  color: transparent;
+}
 svg {
   width: calc(100% + 1.3px);
   height: 56px;
