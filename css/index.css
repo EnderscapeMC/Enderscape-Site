@@ -154,18 +154,11 @@ button:before {
   transition: opacity 0.3s ease;
   z-index: -1;
 }
-button:hover:before {
-  opacity: 1;
-  transition: opacity 0s;
-}
 button:hover {
-  color: white;
+  color: #6573a4;
   border: 2px solid white;
   background-color: white;
   transform: translateY(-5px);
-}
-button:hover span {
-  color: transparent;
 }
 svg {
   width: calc(100% + 1.3px);
@@ -179,6 +172,8 @@ svg path {
 }
 #leaderboards {
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #leaderboards table {
   margin-left: auto;
