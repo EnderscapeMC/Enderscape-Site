@@ -54,7 +54,16 @@ function smoothScroll(event, targetId) {
 
   const target = document.getElementById(targetId);
   window.scrollTo({
-      top: target.offsetTop,
-      behavior: 'smooth'
+    top: target.offsetTop,
+    behavior: 'smooth'
   });
+
+  const navItems = document.querySelectorAll('nav ul.menu li');
+  navItems.forEach(item => {
+    item.classList.remove('active');
+  });
+
+  const currentNavItem = document.querySelector(`nav ul.menu li a[href="#${targetId}"]`).parentElement;
+  currentNavItem.classList.add('active');
 }
+

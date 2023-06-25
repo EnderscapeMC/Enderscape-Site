@@ -58,6 +58,13 @@ nav ul.menu li a {
 nav ul.menu li a:hover {
   color: rgb(225, 225, 225);
 }
+nav ul.menu li.active img,
+nav ul.menu li.active:hover img {
+  opacity: 100%;
+}
+nav ul.menu li.active a {
+  color: rgb(225, 225, 225);
+}
 header {
   width: 100%;
   text-align: center;
