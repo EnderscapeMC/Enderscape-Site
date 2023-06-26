@@ -104,11 +104,48 @@ a:hover#ip {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+svg {
+  width: calc(100% + 1.3px);
+  height: 56px;
+  transform: scale(-1, -1);
+  margin-bottom: -4px;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+}
+svg path {
+  fill:#000;
+}
+#leaderboards {
+  color: white;
+  margin: 50px 0px 50px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 800;
+  box-shadow: 0px 40px 50px rgba(0, 0, 0, 1);
+}
+#leaderboards table {
+  margin-left: auto;
+  margin-right: auto;
+}
+#leaderboard-table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  margin: 0px 10px 0px 10px;
+}
+#leaderboard-table th,
+#leaderboard-table td {
+  padding: 8px;
+  text-align: left;
+  border: 2px solid white;
+  width: 155px;
+}
 #wiki {
   background-image: url(../images/sunrise.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: top;
+  margin-left: -10px;
+  margin-right: -10px;
   color: white;
 }
 #wiki div {
@@ -159,37 +196,6 @@ button:hover {
   border: 2px solid white;
   background-color: white;
   transform: translateY(-5px);
-}
-svg {
-  width: calc(100% + 1.3px);
-  height: 56px;
-  transform: scale(-1, -1);
-  margin-bottom: -4px;
-  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
-}
-svg path {
-  fill:#000;
-}
-#leaderboards {
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-#leaderboards table {
-  margin-left: auto;
-  margin-right: auto;
-}
-#leaderboard-table {
-  border: 2px solid white;
-  border-collapse: collapse;
-  margin: 0px 10px 0px 10px;
-}
-#leaderboard-table th,
-#leaderboard-table td {
-  padding: 8px;
-  text-align: left;
-  border: 2px solid white;
-  width: 155px;
 }
 
 /* .notice is specific to maintenance.html */
