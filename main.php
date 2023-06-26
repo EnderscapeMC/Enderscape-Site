@@ -35,14 +35,16 @@
             </svg>
         </div>
         <div id="store">
-            <section class="left">
-                <h1>Store</h1>
-            </section>
-            <section class="right">
-                <p>Here you can buy a variety of in-game products for real-world currency.</p>
-                <p>By purchasing from our store, you are supporting the server, ensuring it stays online for years to come.</p>
-                <button type="button" onclick="window.location.href='https://store.enderscape.net/', '_blank'">Visit Store</button>
-            </section>
+            <div>
+                <section class="left">
+                    <h1>Store</h1>
+                </section>
+                <section class="right">
+                    <p>Here you can buy a variety of in-game products for real-world currency.</p>
+                    <p>By purchasing from our store, you are supporting the server, ensuring it stays online for years to come.</p>
+                    <button type="button" onclick="window.location.href='https://store.enderscape.net/', '_blank'">Visit Store</button>
+                </section>
+            </div>
         </div>
         <div id="leaderboards">
             <table>
@@ -69,24 +71,28 @@
             </table>
         </div>
         <div id="wiki">
-            <section class="left">
-                <h1>Wiki</h1>
-            </section>
-            <section class="right">
-                <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
-                <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
-                <button type="button" onclick="window.location.href='https://docs.enderscape.net/', '_blank'">Visit Wiki</button>
-            </section>
+            <div>
+                <section class="left">
+                    <h1>Wiki</h1>
+                </section>
+                <section class="right">
+                    <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
+                    <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
+                    <button type="button" onclick="window.location.href='https://docs.enderscape.net/', '_blank'">Visit Wiki</button>
+                </section>
+            </div>
         </div>
         <div id="vote">
-            <section class="left">
-                <h1>Vote</h1>
-            </section>
-            <section class="right">
-                <p>Sentence 1.</p>
-                <p>Sentence 2.</p>
-                <button type="button" onclick="window.location.href=' ', '_blank'">Is this button needed?</button>
-            </section>
+            <div>
+                <section class="left">
+                    <h1>Vote</h1>
+                </section>
+                <section class="right">
+                    <p>Sentence 1.</p>
+                    <p>Sentence 2.</p>
+                    <button type="button" onclick="window.location.href=' ', '_blank'">Is this button needed?</button>
+                </section>
+            </div>
         </div>
     </body>
 </html>
