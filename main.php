@@ -59,7 +59,7 @@
             </table>
         </div>
         <div id="wiki-store">
-            <div>
+            <div id="wiki">
                 <section class="left">
                     <h1>Wiki</h1>
                 </section>
@@ -70,7 +70,7 @@
                 </section>
             </div>
             <hr class="divider">
-            <div>
+            <div id="store">
                 <section class="left">
                     <h1>Store</h1>
                 </section>
