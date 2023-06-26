@@ -254,7 +254,7 @@ hr {
 }
 
 #quizzes .right {
-  padding: 0%;
+  flex: 1;
 }
 
 #quizzes div {
