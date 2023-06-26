@@ -268,29 +268,21 @@ hr {
 }
 
 #quizzes table a {
-  display: inline-block;
-  position: relative;
-  z-index: 1;
   padding: 2em;
-  margin: -2em;
   text-decoration: none;
 }
 
 #quizzes table h2 {
   font-weight: lighter;
-  width: 250px;
-  border-radius: 6px;
   color: white;
   text-align: center;
 }
 
 #quizzes table tr th, 
 #quizzes table tr td {
-  background-color: transparent;
   border: 2px solid white;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 20px 20px 10px 20px;
-  position: relative;
   cursor: pointer;
   transition: transform 0.3s ease;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
@@ -299,13 +291,13 @@ hr {
 #quizzes table tr th:hover,
 #quizzes table tr td:hover {
   background: white;
-  color: black;
+  color: rgb(25, 25, 25);;
   transform: translate(0, -5px);
 }
 
 #quizzes table tr th:hover h2,
 #quizzes table tr td:hover h2 {
-  color: black;
+  color: rgb(25, 25, 25);;
 }
 
 footer {
