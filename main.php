@@ -139,19 +139,18 @@
                                     <h2>Which staff member are you?</h2>
                                 </a>
                             </th>
-                            <th>
+                        </tr>
+                        <tr>
+                            <td>
                                 <a href="../html/builds-quiz.html">
                                     <h2>Do you know who created these builds?</h2>
                                 </a>
-                            </th>
-                        </tr>
-                        <tr>
-                            <!--<td>
-                                <a href="html/.html">
-                                    <img src="images/">
-                                    <h2>?</h2>
+                            </td>
+                            <td>
+                                <a href="..html/suggest-quiz.html">
+                                    <h2>Suggest a Quiz</h2>
                                 </a>
-                            </td>-->
+                            </td>
                         </tr>
                     </table>
                 </section>
