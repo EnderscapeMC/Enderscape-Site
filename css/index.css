@@ -154,6 +154,11 @@ svg path {
   color: white;
 }
 
+#leaderboards div {
+  margin: 0 auto;
+  width: 70%;
+}
+
 #leaderboards h1 {
   font-size: 80px;
   padding-top: 50px;
@@ -179,7 +184,6 @@ svg path {
 }
 
 #store div,
-#leaderboards div,
 #wiki div,
 #vote div {
   display: flex;
