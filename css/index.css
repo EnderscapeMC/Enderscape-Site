@@ -254,7 +254,7 @@ hr {
 }
 
 #quizzes div {
-  margin: 200px auto 200px auto;
+  margin: 100px auto 100px auto;
 }
 
 #quizzes h1 {
@@ -267,29 +267,27 @@ hr {
   border-spacing: 20px;
 }
 
-#quizzes table tr th:hover,
-#quizzes table tr td:hover {
-  background: rgba(100, 52, 172, 0.9);
-  color: #F0EED1;
-  transform: translate(0, -5px);
+#quizzes table a {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+  text-decoration: none;
 }
 
-#quizzes table tr th:hover h2,
-#quizzes table tr td:hover h2 {
-  color: #F0EED1;
-}
-
-#quizzes table img, h2 {
+#quizzes table h2 {
   font-weight: lighter;
   width: 250px;
   border-radius: 6px;
-  color: #F0EED1;
+  color: white;
   text-align: center;
 }
 
 #quizzes table tr th, 
 #quizzes table tr td {
-  background-color: rgba(100, 52, 172, 0.8);
+  background-color: transparent;
+  border: 2px solid white;
   border-radius: 6px;
   padding: 20px 20px 10px 20px;
   position: relative;
@@ -298,20 +296,16 @@ hr {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
-#quizzes table a {
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  padding: 2em;
-  margin: -2em;
+#quizzes table tr th:hover,
+#quizzes table tr td:hover {
+  background: white;
+  color: black;
+  transform: translate(0, -5px);
 }
 
-#quizzes table a.suggest-option {
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  padding: 12em 2em 12em 2em;
-  margin: -12em -2em -12em -2em;
+#quizzes table tr th:hover h2,
+#quizzes table tr td:hover h2 {
+  color: black;
 }
 
 footer {
