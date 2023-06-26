@@ -24,21 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
       notification.style.display = 'none';
     }, 2000);
-  }  
-
-  function updateLeaderboard() {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'lands_database.php', true);
-
-    xhr.onload = function() {
-      if (xhr.status >= 200 && xhr.status < 400) {
-        var response = xhr.responseText;
-        var leaderboardTable = document.getElementById('leaderboard-table');
-        leaderboardTable.innerHTML = response;
-      }
-    };
-
-    xhr.send();
   }
 });
 
@@ -53,8 +38,12 @@ function smoothScroll(event, targetId) {
   event.preventDefault();
 
   const target = document.getElementById(targetId);
+  const windowHeight = window.innerHeight;
+  const targetOffset = target.offsetTop;
+  const scrollPosition = targetOffset - (windowHeight / 2);
+
   window.scrollTo({
-      top: target.offsetTop,
-      behavior: 'smooth'
+    top: scrollPosition,
+    behavior: 'smooth'
   });
 }
