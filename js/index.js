@@ -40,7 +40,7 @@ function smoothScroll(event, targetId) {
   const target = document.getElementById(targetId);
   const windowHeight = window.innerHeight;
   const targetOffset = target.offsetTop;
-  const scrollPosition = targetOffset - (windowHeight / 2);
+  const scrollPosition = targetOffset - (windowHeight / 3);
 
   window.scrollTo({
     top: scrollPosition,
