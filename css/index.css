@@ -299,11 +299,19 @@ hr {
 }
 
 #quizzes table a {
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    padding: 2em;
-    margin: -2em;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+}
+
+#quizzes table a.suggest-option {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 12em 2em 12em 2em;
+  margin: -12em -2em -12em -2em;
 }
 
 footer {
