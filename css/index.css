@@ -189,6 +189,7 @@ svg path {
 
 .right {
   flex: 2;
+  padding: 5%;
 }
 
 .divider {
