@@ -132,11 +132,12 @@ svg path {
   fill: rgb(25, 25, 25);
 }
 
-#store {
+#store,
+#wiki,
+#vote {
   color: white;
   margin: 50px 0px 50px 0px;
   position: relative;
-  z-index: 800;
 }
 
 #leaderboards {
