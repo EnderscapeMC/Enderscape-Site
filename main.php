@@ -127,36 +127,22 @@
                     <button type="button" onclick="window.open('../html/suggest-quiz.html', '_blank')">Suggest a Quiz</button>
                 </section>
                 <section class="right">
-                    <table>
-                        <tr>
-                            <th>
-                                <img src="images/lore-icon.png">
-                                <a href="../html/lore-quiz.html">
-                                    <h2>How well do you know Enderscape lore?</h2>
-                                </a>
-                            </th>
-                            <th>
-                                <img src="images/staff-icon.png">
-                                <a href="../html/which-staff-are-you.html">
-                                    <h2>Which staff member are you?</h2>
-                                </a>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="images/grassblock-icon.png">
-                                <a href="../html/builds-quiz.html">
-                                    <h2>Do you know who created these builds?</h2>
-                                </a>
-                            </td>
-                            <td>
-                                <img src="images/plus-icon.png">
-                                <a href="..html/suggest-quiz.html">
-                                    <h2>Suggest a Quiz</h2>
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
+                    <a href="../html/lore-quiz.html">
+                        <img src="images/lore-icon.png">
+                        <h2>How well do you know Enderscape lore?</h2>
+                    </a>
+                    <a href="../html/which-staff-are-you.html">
+                        <img src="images/staff-icon.png">
+                        <h2>Which staff member are you?</h2>
+                    </a>
+                    <a href="../html/builds-quiz.html">
+                        <img src="images/grassblock-icon.png">
+                        <h2>Do you know who created these builds?</h2>
+                    </a>
+                    <a href="..html/suggest-quiz.html">
+                        <img src="images/plus-icon.png">
+                        <h2>Suggest a Quiz</h2>
+                    </a>
                 </section>
             </div>
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
