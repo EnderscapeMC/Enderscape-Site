@@ -295,7 +295,7 @@ hr {
 #quizzes table tr th:hover,
 #quizzes table tr td:hover {
   background: rgba(255, 255, 255, 0.5);
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5); 
   color: rgb(25, 25, 25);;
   transform: translate(0, -5px);
 }
