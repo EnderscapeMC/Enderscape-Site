@@ -253,6 +253,10 @@ hr {
   color: white;
 }
 
+#quizzes .right {
+  padding: 0%;
+}
+
 #quizzes div {
   margin: 100px auto 100px auto;
 }
