@@ -224,7 +224,6 @@ button:before {
 button:hover,
 button a:hover {
   color: #6573a4;
-  border: 2px solid white;
   background-color: white;
   transform: translateY(-5px);
 }
