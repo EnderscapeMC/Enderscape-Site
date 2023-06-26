@@ -39,8 +39,13 @@ function smoothScroll(event, targetId) {
 
   const target = document.getElementById(targetId);
   const windowHeight = window.innerHeight;
-  const targetOffset = target.offsetTop;
-  const scrollPosition = targetOffset - (windowHeight / 3);
+  let scrollPosition;
+
+  if (targetId === 'leaderboards') {
+    scrollPosition = target.offsetTop - (windowHeight / 1);
+  } else {
+    scrollPosition = target.offsetTop - (windowHeight / 3);
+  }
 
   window.scrollTo({
     top: scrollPosition,
