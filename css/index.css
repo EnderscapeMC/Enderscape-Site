@@ -191,15 +191,13 @@ svg path {
   flex: 2;
 }
 
-button,
-button a {
+button {
   font-weight: bold;
   font-size: 15px;
   border: 2px solid white;
   border-radius: 6px;
   background-color: transparent;
   color: white;
-  text-decoration: none;
   padding: 10px 15px 10px 15px;
   cursor: pointer;
   position: relative;
@@ -221,9 +219,9 @@ button:before {
   z-index: -1;
 }
 
-button:hover,
-button a:hover {
+button:hover {
   color: #6573a4;
+  border: 2px solid white;
   background-color: white;
   transform: translateY(-5px);
 }

@@ -66,7 +66,7 @@
                 <section class="right">
                     <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
                     <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
-                    <button type="button"><a href="https://docs.enderscape.net/">Visit Wiki</a></button>
+                    <button type="button" onclick="window.location.href='https://docs.enderscape.net/'">Visit Wiki</button>
                 </section>
             </div>
         </div>
