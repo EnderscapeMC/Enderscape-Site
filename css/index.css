@@ -200,8 +200,7 @@ td {
 #store h1,
 #wiki h1,
 #vote h1,
-#discord h1,
-#quizzes h1 {
+#discord h1 {
   font-size: 80px;
   text-align: center;
 }
@@ -254,10 +253,12 @@ hr {
   color: white;
 }
 
-
+#quizzes h1 {
+  font-size: 80px;
+}
 
 footer {
-  padding: 10px;
+  padding-bottom: 10px;
   text-align: center;
   color: white;
 }
