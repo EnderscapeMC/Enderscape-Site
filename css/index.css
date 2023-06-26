@@ -264,6 +264,13 @@ hr {
   color: white;
 }
 
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
 /* .notice is specific to maintenance.html */
 .notice {
   display: block;
