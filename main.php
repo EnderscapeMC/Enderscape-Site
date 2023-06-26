@@ -58,7 +58,7 @@
                 </tr>
             </table>
         </div>
-        <div id="wiki">
+        <div id="wiki-store">
             <div>
                 <section class="left">
                     <h1>Wiki</h1>
@@ -66,7 +66,18 @@
                 <section class="right">
                     <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
                     <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
-                    <button type="button" onclick="window.location.href='https://docs.enderscape.net/'">Visit Wiki</button>
+                    <button type="button" onclick="window.location.href='https://docs.enderscape.net/', '_blank'">Visit Wiki</button>
+                </section>
+            </div>
+            <hr class="divider">
+            <div>
+                <section class="left">
+                    <h1>Store</h1>
+                </section>
+                <section class="right">
+                    <p>Here you can buy a variety of in-game products for real-world currency.</p>
+                    <p>By purchasing from our store, you are supporting the server, ensuring it stays online for years to come.</p>
+                    <button type="button" onclick="window.location.href='https://store.enderscape.net/', '_blank'">Visit Store</button>
                 </section>
             </div>
         </div>

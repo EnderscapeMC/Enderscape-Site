@@ -161,7 +161,7 @@ svg path {
   width: 155px;
 }
 
-#wiki {
+#wiki-store {
   background-image: url("../images/sunrise.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,6 +189,12 @@ svg path {
 
 .right {
   flex: 2;
+}
+
+.divider {
+  border-top: 8px solid white;
+  border-radius: 5px;
+  width: 70%;
 }
 
 button {
