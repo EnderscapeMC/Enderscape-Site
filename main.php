@@ -131,19 +131,16 @@
                         <tr>
                             <th>
                                 <a href="../html/lore-quiz.html">
-                                    <img src="https://i.imgur.com/HZii0o8.jpg">
                                     <h2>How well do you know Enderscape lore?</h2>
                                 </a>
                             </th>
                             <th>
                                 <a href="../html/which-staff-are-you.html">
-                                    <img src="https://i.imgur.com/BokHlOx.jpg">
                                     <h2>Which staff member are you?</h2>
                                 </a>
                             </th>
                             <th>
                                 <a href="../html/builds-quiz.html">
-                                    <img src="https://i.imgur.com/ZKP6XkG.png">
                                     <h2>Do you know who created these builds?</h2>
                                 </a>
                             </th>
