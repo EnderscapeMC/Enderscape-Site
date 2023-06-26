@@ -172,12 +172,17 @@ svg path {
   margin: 0px 10px 0px 10px;
 }
 
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #leaderboard-table th,
 #leaderboard-table td {
   padding: 8px;
   text-align: left;
   border: 2px solid white;
-  width: 155px;
+  width: 150px;
 }
 
 #store div,
@@ -215,6 +220,7 @@ button {
   border-radius: 6px;
   background-color: transparent;
   color: white;
+  margin-top: 10px;
   padding: 10px 15px 10px 15px;
   cursor: pointer;
   position: relative;
@@ -241,6 +247,11 @@ button:hover {
   border: 2px solid white;
   background-color: white;
   transform: translateY(-5px);
+}
+
+hr {
+  border: 1px solid rgb(255, 255, 255, 0.5);
+  width: 70%;
 }
 
 /* .notice is specific to maintenance.html */

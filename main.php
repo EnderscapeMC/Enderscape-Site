@@ -42,7 +42,7 @@
                 <section class="right">
                     <p>Here you can buy a variety of in-game products for real-world currency.</p>
                     <p>By purchasing from our store, you are supporting the server, ensuring it stays online for years to come.</p>
-                    <button type="button" onclick="window.location.href='https://store.enderscape.net/', '_blank'">Visit Store</button>
+                    <button type="button" onclick="window.open('https://store.enderscape.net/', '_blank')">Visit Store</button>
                 </section>
             </div>
         </div>
@@ -86,10 +86,11 @@
                 <section class="right">
                     <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
                     <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
-                    <button type="button" onclick="window.location.href='https://docs.enderscape.net/', '_blank'">Visit Wiki</button>
+                    <button type="button" onclick="window.open('https://docs.enderscape.net', '_blank')">Visit Wiki</button>
                 </section>
             </div>
         </div>
+        <hr>
         <div id="vote">
             <div>
                 <section class="left">
@@ -98,10 +99,11 @@
                 <section class="right">
                     <p>Vote for Enderscape and get rewarded with in-game perks.</p>
                     <p>By voting you can earn exclusive vote tags to showcase your dedication and Cubelet keys to unlock randomised prizes.</p>
-                    <button type="button" onclick="window.location.href='https://enderscape.net/vote', '_blank'">Vote Now</button>
+                    <button type="button" onclick="window.open('https://enderscape.net/vote.php', '_blank')">Vote Now</button>
                 </section>
             </div>
         </div>
+        <hr>
         <div id="discord">
             <div>
                 <section class="left">
@@ -110,7 +112,7 @@
                 <section class="right">
                     <p>Join the server's Discord to connect with other players, have your say on the server and stay up to date with changes and announcements.</p>
                     <p>You can link your Minecraft account with our Discord server by typing /link in game.</p>
-                    <button type="button" onclick="window.location.href='https://discord.gg/nHmYSDd8ms/', '_blank'">Join the Discord</button>
+                    <button type="button" onclick="window.open('https://discord.gg/nHmYSDd8ms', '_blank')">Join the Discord</button>
                 </section>
             </div>
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" style="transform: rotate(360deg);">
