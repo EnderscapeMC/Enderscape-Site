@@ -253,8 +253,14 @@ hr {
   color: white;
 }
 
+#quizzes div {
+  margin: 200px auto 200px auto;
+}
+
 #quizzes h1 {
   font-size: 70px;
+  text-align: left;
+  margin: 0px 0px 20px -4px;
 }
 
 footer {
