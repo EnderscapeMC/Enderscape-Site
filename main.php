@@ -154,7 +154,6 @@
                             </td>-->
                         </tr>
                     </table>
-                    <button type="button" onclick="window.open('../html/quizzes-home.html', '_blank')">More Quizzes</button>
                 </section>
             </div>
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
