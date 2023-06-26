@@ -264,6 +264,7 @@ hr {
 }
 
 #quizzes table {
+  margin: auto;
   border-spacing: 20px;
 }
 
@@ -273,6 +274,7 @@ hr {
 }
 
 #quizzes table h2 {
+  font-size: 18px;
   font-weight: lighter;
   color: white;
   text-align: center;
@@ -286,11 +288,14 @@ hr {
   cursor: pointer;
   transition: transform 0.3s ease;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  width: 200px;
+  height: 100px;
 }
 
 #quizzes table tr th:hover,
 #quizzes table tr td:hover {
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   color: rgb(25, 25, 25);;
   transform: translate(0, -5px);
 }
