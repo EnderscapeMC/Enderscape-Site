@@ -162,7 +162,7 @@ svg path {
 }
 
 #wiki {
-  background-image: url(../images/sunrise.png) no-repeat top/cover;
+  background-image: url("../images/sunrise.png") no-repeat top/cover;
   margin-left: -10px;
   margin-right: -10px;
   color: white;
