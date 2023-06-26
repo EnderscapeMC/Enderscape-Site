@@ -134,7 +134,8 @@ svg path {
 
 #store,
 #wiki,
-#vote {
+#vote,
+#discord {
   color: white;
   margin: 50px 0px 50px 0px;
   position: relative;
@@ -181,7 +182,8 @@ svg path {
 
 #store div,
 #wiki div,
-#vote div {
+#vote div,
+#discord div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,8 +192,9 @@ svg path {
 }
 
 #store h1,
-#wiki  h1,
-#vote  h1 {
+#wiki h1,
+#vote h1,
+#discord h1 {
   font-size: 80px;
   text-align: center;
 }

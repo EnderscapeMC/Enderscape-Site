@@ -96,9 +96,21 @@
                     <h1>Vote</h1>
                 </section>
                 <section class="right">
-                    <p>Sentence 1.</p>
-                    <p>Sentence 2.</p>
-                    <button type="button" onclick="window.location.href=' ', '_blank'">Is this button needed?</button>
+                    <p>Vote for Enderscape and get rewarded with in-game perks.</p>
+                    <p>By voting you can earn exclusive vote tags to showcase your dedication and Cubelet keys to unlock randomised prizes.</p>
+                    <button type="button" onclick="window.location.href='https://enderscape.net/vote', '_blank'">Vote Now</button>
+                </section>
+            </div>
+        </div>
+        <div id="discord">
+            <div>
+                <section class="left">
+                    <h1>Discord</h1>
+                </section>
+                <section class="right">
+                    <p>Join the server's Discord to connect with other players, have your say on the server and stay up to date with changes and announcements.</p>
+                    <p>You can link your Minecraft account with our Discord server by typing /link in game.</p>
+                    <button type="button" onclick="window.location.href='https://discord.gg/nHmYSDd8ms/', '_blank'">Join the Discord</button>
                 </section>
             </div>
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" style="transform: rotate(360deg);">
