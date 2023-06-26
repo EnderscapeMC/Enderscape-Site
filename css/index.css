@@ -272,11 +272,24 @@ hr {
   text-decoration: none;
 }
 
+#quizzes img {
+  width: 40px;
+  opacity: 0.4;
+}
+
+#quizzes img:hover {
+  opacity: 1;
+}
+
 #quizzes h2 {
   font-size: 18px;
   font-weight: lighter;
-  color: white;
+  color: rgb(255, 255, 255, 0.4);
   text-align: center;
+}
+
+#quizzes h2:hover {
+  color: rgb(255, 255, 255, 1);
 }
 
 footer {
