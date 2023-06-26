@@ -47,28 +47,31 @@
             </div>
         </div>
         <div id="leaderboards">
-            <table>
-                <tr>
-                    <th><h3 style='margin-bottom: 5px'>Balance Leaderboard</h3></th>
-                    <th><h3 style='margin-bottom: 5px'>Lands Leaderboard</h3></th>
-                    <th><h3 style='margin-bottom: 5px'>McMMO Power Leaderboard</h3></th>
-                </tr>
-                <tr>
-                    <td><?php include('../includes/balance_cmi_database.php'); ?></td>
-                    <td><?php include('../includes/lands_database.php'); ?></td>
-                    <td><?php include('../includes/mcmmo_database.php'); ?></td>
-                </tr>
-                <tr>
-                    <th><h3 style='margin-bottom: 5px'>Rank Leaderboard</h3></th>
-                    <th><h3 style='margin-bottom: 5px'>Vote Leaderboard</h3></th>
-                    <th><h3 style='margin-bottom: 5px'>Playtime Leaderboard</h3></th>
-                </tr>
-                <tr>
-                    <td><?php include('../includes/rank_cmi_database.php'); ?></td>
-                    <td><?php include('../includes/votes_cmi_database.php'); ?></td>
-                    <td><?php include('../includes/playtime_cmi_database.php'); ?></td>
-                </tr>
-            </table>
+            <div>
+                <h1>Leaderboards</h1>
+                <table>
+                    <tr>
+                        <th><h3 style='margin-bottom: 5px'>Balance Leaderboard</h3></th>
+                        <th><h3 style='margin-bottom: 5px'>Lands Leaderboard</h3></th>
+                        <th><h3 style='margin-bottom: 5px'>McMMO Power Leaderboard</h3></th>
+                    </tr>
+                    <tr>
+                        <td><?php include('../includes/balance_cmi_database.php'); ?></td>
+                        <td><?php include('../includes/lands_database.php'); ?></td>
+                        <td><?php include('../includes/mcmmo_database.php'); ?></td>
+                    </tr>
+                    <tr>
+                        <th><h3 style='margin-bottom: 5px'>Rank Leaderboard</h3></th>
+                        <th><h3 style='margin-bottom: 5px'>Vote Leaderboard</h3></th>
+                        <th><h3 style='margin-bottom: 5px'>Playtime Leaderboard</h3></th>
+                    </tr>
+                    <tr>
+                        <td><?php include('../includes/rank_cmi_database.php'); ?></td>
+                        <td><?php include('../includes/votes_cmi_database.php'); ?></td>
+                        <td><?php include('../includes/playtime_cmi_database.php'); ?></td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <div id="wiki">
             <div>
