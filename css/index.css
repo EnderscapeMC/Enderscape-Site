@@ -263,6 +263,49 @@ hr {
   margin: 0px 0px 20px -4px;
 }
 
+#quizzes table {
+  border-spacing: 20px;
+}
+
+#quizzes table tr th:hover,
+#quizzes table tr td:hover {
+  background: rgba(100, 52, 172, 0.9);
+  color: #F0EED1;
+  transform: translate(0, -5px);
+}
+
+#quizzes table tr th:hover h2,
+#quizzes table tr td:hover h2 {
+  color: #F0EED1;
+}
+
+#quizzes table img, h2 {
+  font-weight: lighter;
+  width: 250px;
+  border-radius: 6px;
+  color: #F0EED1;
+  text-align: center;
+}
+
+#quizzes table tr th, 
+#quizzes table tr td {
+  background-color: rgba(100, 52, 172, 0.8);
+  border-radius: 6px;
+  padding: 20px 20px 10px 20px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+#quizzes table a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+}
+
 footer {
   padding-bottom: 10px;
   text-align: center;

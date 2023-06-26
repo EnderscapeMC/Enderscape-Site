@@ -127,7 +127,7 @@
                     <button type="button" onclick="window.open('../html/suggest-quiz.html', '_blank')">Suggest a Quiz</button>
                 </section>
                 <section class="right">
-                    <table class="quizzes">
+                    <table>
                         <tr>
                             <th>
                                 <a href="../html/lore-quiz.html">
