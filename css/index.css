@@ -131,15 +131,6 @@ svg path {
   fill: rgb(25, 25, 25);
 }
 
-#store,
-#wiki,
-#vote,
-#discord {
-  color: white;
-  margin: 50px 0px 50px 0px;
-  position: relative;
-}
-
 #leaderboards {
   background-image: url("../images/sunrise.png");
   background-repeat: no-repeat;
@@ -184,10 +175,21 @@ td {
   width: 150px;
 }
 
+#store,
+#wiki,
+#vote,
+#discord,
+#quizzes {
+  color: white;
+  margin: 50px 0px 50px 0px;
+  position: relative;
+}
+
 #store div,
 #wiki div,
 #vote div,
-#discord div {
+#discord div,
+#quizzes div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +200,8 @@ td {
 #store h1,
 #wiki h1,
 #vote h1,
-#discord h1 {
+#discord h1,
+#quizzes h1 {
   font-size: 80px;
   text-align: center;
 }
@@ -250,6 +253,8 @@ hr {
   margin-right: -10px;
   color: white;
 }
+
+
 
 footer {
   padding: 20px 10px;
