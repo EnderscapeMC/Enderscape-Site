@@ -170,7 +170,7 @@ svg path {
   color: white;
 }
 
-#wiki div {
+#wiki-store div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,7 +178,7 @@ svg path {
   width: 70%;
 }
 
-#wiki h1{
+#wiki-store h1{
   font-size: 80px;
   text-align: center;
 }
@@ -192,8 +192,7 @@ svg path {
 }
 
 .divider {
-  border-top: 8px solid white;
-  border-radius: 5px;
+  border-top: 1px solid white;
   width: 70%;
 }
 
