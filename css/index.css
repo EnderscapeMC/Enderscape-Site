@@ -147,6 +147,11 @@ svg path {
   width: 70%;
 }
 
+.leaderboards-top-row,
+.leaderboards-bottom-row {
+  display: flex;
+}
+
 #store,
 #wiki,
 #vote,
