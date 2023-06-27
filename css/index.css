@@ -258,6 +258,7 @@ hr {
 }
 
 #quizzes div {
+  display: grid;
   margin: 100px auto 100px auto;
 }
 

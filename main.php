@@ -121,29 +121,25 @@
                 <path data-v-6da3ec0c="" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
             </svg>
             <div>
-                <section class="left">
-                    <h1>Quizzes</h1>
-                    <p>Test your Enderscape knowledge with our collection of quizzes.</p>
-                    <button type="button" onclick="window.open('../html/suggest-quiz.html', '_blank')">Suggest a Quiz</button>
-                </section>
-                <section class="right">
-                    <a href="../html/lore-quiz.html">
-                        <img src="images/lore-icon.png">
-                        <h2>How well do you know Enderscape lore?</h2>
-                    </a>
-                    <a href="../html/which-staff-are-you.html">
-                        <img src="images/staff-icon.png">
-                        <h2>Which staff member are you?</h2>
-                    </a>
-                    <a href="../html/builds-quiz.html">
-                        <img src="images/grassblock-icon.png">
-                        <h2>Do you know who created these builds?</h2>
-                    </a>
-                    <a href="..html/suggest-quiz.html">
-                        <img src="images/plus-icon.png">
-                        <h2>Suggest a Quiz</h2>
-                    </a>
-                </section>
+                <h1>Quizzes</h1>
+                <p>Test your Enderscape knowledge with our collection of quizzes.</p>
+                <a href="../html/lore-quiz.html">
+                    <img src="images/lore-icon.png">
+                    <h2>How well do you know Enderscape lore?</h2>
+                </a>
+                <a href="../html/which-staff-are-you.html">
+                    <img src="images/staff-icon.png">
+                    <h2>Which staff member are you?</h2>
+                </a>
+                <a href="../html/builds-quiz.html">
+                    <img src="images/grassblock-icon.png">
+                    <h2>Do you know who created these builds?</h2>
+                </a>
+                <a href="..html/suggest-quiz.html">
+                    <img src="images/plus-icon.png">
+                    <h2>Suggest a Quiz</h2>
+                </a>
+                <button type="button" onclick="window.open('../html/suggest-quiz.html', '_blank')">Suggest a Quiz</button>
             </div>
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path data-v-6da3ec0c="" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
