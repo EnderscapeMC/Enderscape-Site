@@ -272,11 +272,6 @@ hr {
   flex: 1;
 }
 
-#quizzes div {
-  display: grid; 
-  margin: 100px auto 100px auto;
-}
-
 #quizzes h1 {
   font-size: 70px;
   text-align: left;
