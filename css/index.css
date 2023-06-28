@@ -284,11 +284,11 @@ hr {
   font-size: 18px;
   font-weight: lighter;
   text-align: center;
+  color: rgb(255, 255, 255, 0.4);
 }
 
 #quizzes a:hover {
   opacity: 1;
-  
 }
 
 footer {
