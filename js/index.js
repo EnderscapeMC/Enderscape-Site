@@ -42,7 +42,7 @@ function smoothScroll(event, targetId) {
   let scrollPosition;
 
   if (targetId === 'leaderboards-bottom-row') {
-    scrollPosition = target.offsetTop - (windowHeight / 3);
+    scrollPosition = target.offsetTop - (windowHeight / 2);
   } else if (targetId === 'quizzes') {
     scrollPosition = target.offsetTop - (windowHeight / 10);
   } else {
