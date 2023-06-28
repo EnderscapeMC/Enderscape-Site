@@ -131,6 +131,7 @@
                 <section class="left">
                     <h1>Quizzes</h1>
                     <p>Test your Enderscape knowledge with our collection of quizzes.</p>
+                    <button type="button" onclick="window.open('../html/suggest-quiz.html', '_blank')">Suggest a Quiz</button>
                 </section>
                 <section class="right">
                     <a href="../html/lore-quiz.html">
@@ -149,7 +150,6 @@
                         <img src="images/plus-icon.png">
                         <h2>Suggest a Quiz</h2>
                     </a>
-                    <button type="button" onclick="window.open('../html/suggest-quiz.html', '_blank')">Suggest a Quiz</button>
                 </section>
             </div>
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
