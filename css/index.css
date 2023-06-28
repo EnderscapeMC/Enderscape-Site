@@ -158,6 +158,10 @@ svg path {
   display: flex;
 }
 
+.leaderboard {
+  margin: auto;
+}
+
 #store,
 #wiki,
 #vote,
