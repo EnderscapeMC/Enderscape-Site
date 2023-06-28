@@ -162,6 +162,20 @@ svg path {
   margin: auto;
 }
 
+table#leaderboard-table {
+  margin-bottom: 50px;
+  border-collapse: collapse;
+}
+
+h3 {
+  margin: 50px 0px 20px 0px;
+}
+
+td {
+  width: 150px;
+  padding: 10px;
+}
+
 #store,
 #wiki,
 #vote,
