@@ -14,7 +14,7 @@
                 <ul class="menu">
                     <li><a href="#home" onclick="smoothScroll(event, 'home')"><img src="images/home-icon.png"><h3>Home</h3></a></li>
                     <li><a href="#store" onclick="smoothScroll(event, 'store')"><img src="images/store-icon.png"><h3>Store</h3></a></li>
-                    <li><a href="#leaderboards" onclick="smoothScroll(event, 'leaderboards')"><img src="images/leaderboard-icon.png"><h3>Leaderboards</h3></a></li>
+                    <li><a href="#leaderboards-bottom-row" onclick="smoothScroll(event, 'leaderboards-bottom-row')"><img src="images/leaderboard-icon.png"><h3>Leaderboards</h3></a></li>
                     <li><a href="#wiki" onclick="smoothScroll(event, 'wiki')"><img src="images/wiki-icon.png"><h3>Wiki</h3></a></li>
                     <li><a href="#vote" onclick="smoothScroll(event, 'vote')"><img src="images/vote-icon.png"><h3>Vote</h3></a></li>
                     <li><a href="#discord" onclick="smoothScroll(event, 'discord')"><img src="images/discord-icon.png"><h3>Discord</h3></a></li>

@@ -153,12 +153,12 @@ svg path {
   text-align: center;
 }
 
-.leaderboards-top-row,
-.leaderboards-bottom-row {
+#leaderboards-top-row,
+#leaderboards-bottom-row {
   display: flex;
 }
 
-.leaderboards-top-row {
+#leaderboards-top-row {
   margin-bottom: 10px;
 }
 

@@ -41,8 +41,8 @@ function smoothScroll(event, targetId) {
   const windowHeight = window.innerHeight;
   let scrollPosition;
 
-  if (targetId === 'leaderboards') {
-    scrollPosition = target.offsetTop - (windowHeight / 105);
+  if (targetId === 'leaderboards-bottom-row') {
+    scrollPosition = target.offsetTop - (windowHeight / 3);
   } else if (targetId === 'quizzes') {
     scrollPosition = target.offsetTop - (windowHeight / 10);
   } else {
