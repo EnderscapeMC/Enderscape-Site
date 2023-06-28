@@ -184,6 +184,11 @@ td {
   padding: 10px;
 }
 
+#leaderboards section p {
+  text-align: left;
+  font-style: italic;
+}
+
 #store,
 #wiki,
 #vote,
