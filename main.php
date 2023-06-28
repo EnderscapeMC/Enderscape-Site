@@ -50,34 +50,36 @@
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" style="transform: rotate(360deg);">
                 <path data-v-6da3ec0c="" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
             </svg>
-            <div class="leaderboards-top-row">
-                <div class="leaderboard">
-                    <h3 style="">Balance Leaderboard</h3>
-                    <?php include('../includes/balance_cmi_database.php'); ?>
+            <section>
+                <div class="leaderboards-top-row">
+                    <div class="leaderboard">
+                        <h3 style="">Balance Leaderboard</h3>
+                        <?php include('../includes/balance_cmi_database.php'); ?>
+                    </div>
+                    <div class="leaderboard">
+                        <h3 style="margin-bottom: 5px">Lands Leaderboard</h3>
+                        <?php include('../includes/lands_database.php'); ?>
+                    </div>
+                    <div class="leaderboard">
+                        <h3 style="margin-bottom: 5px">McMMO Power Leaderboard</h3>
+                        <?php include('../includes/mcmmo_database.php'); ?>
+                    </div>
                 </div>
-                <div class="leaderboard">
-                    <h3 style="margin-bottom: 5px">Lands Leaderboard</h3>
-                    <?php include('../includes/lands_database.php'); ?>
+                <div class="leaderboards-bottom-row">
+                    <div class="leaderboard">
+                        <h3 style="margin-bottom: 5px">Rank Leaderboard</h3>
+                        <?php include('../includes/rank_cmi_database.php'); ?>
+                    </div>
+                    <div class="leaderboard">
+                        <h3 style="margin-bottom: 5px">Vote Leaderboard</h3>
+                        <?php include('../includes/votes_cmi_database.php'); ?>
+                    </div>
+                    <div class="leaderboard">
+                        <h3 style="margin-bottom: 5px">Playtime Leaderboard</h3>
+                        <?php include('../includes/playtime_cmi_database.php'); ?>
+                    </div>
                 </div>
-                <div class="leaderboard">
-                    <h3 style="margin-bottom: 5px">McMMO Power Leaderboard</h3>
-                    <?php include('../includes/mcmmo_database.php'); ?>
-                </div>
-            </div>
-            <div class="leaderboards-bottom-row">
-                <div class="leaderboard">
-                    <h3 style="margin-bottom: 5px">Rank Leaderboard</h3>
-                    <?php include('../includes/rank_cmi_database.php'); ?>
-                </div>
-                <div class="leaderboard">
-                    <h3 style="margin-bottom: 5px">Vote Leaderboard</h3>
-                    <?php include('../includes/votes_cmi_database.php'); ?>
-                </div>
-                <div class="leaderboard">
-                    <h3 style="margin-bottom: 5px">Playtime Leaderboard</h3>
-                    <?php include('../includes/playtime_cmi_database.php'); ?>
-                </div>
-            </div>
+            <section>
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path data-v-6da3ec0c="" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
             </svg>
