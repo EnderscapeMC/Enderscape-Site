@@ -53,29 +53,29 @@
             <section>
                 <div class="leaderboards-top-row">
                     <div class="leaderboard">
-                        <h3 style="">Balance Leaderboard</h3>
+                        <h3>Balance Leaderboard</h3>
                         <?php include('../includes/balance_cmi_database.php'); ?>
                     </div>
                     <div class="leaderboard">
-                        <h3 style="margin-bottom: 5px">Lands Leaderboard</h3>
+                        <h3>Lands Leaderboard</h3>
                         <?php include('../includes/lands_database.php'); ?>
                     </div>
                     <div class="leaderboard">
-                        <h3 style="margin-bottom: 5px">McMMO Power Leaderboard</h3>
+                        <h3>McMMO Power Leaderboard</h3>
                         <?php include('../includes/mcmmo_database.php'); ?>
                     </div>
                 </div>
                 <div class="leaderboards-bottom-row">
                     <div class="leaderboard">
-                        <h3 style="margin-bottom: 5px">Rank Leaderboard</h3>
+                        <h3>Rank Leaderboard</h3>
                         <?php include('../includes/rank_cmi_database.php'); ?>
                     </div>
                     <div class="leaderboard">
-                        <h3 style="margin-bottom: 5px">Vote Leaderboard</h3>
+                        <h3>Vote Leaderboard</h3>
                         <?php include('../includes/votes_cmi_database.php'); ?>
                     </div>
                     <div class="leaderboard">
-                        <h3 style="margin-bottom: 5px">Playtime Leaderboard</h3>
+                        <h3>Playtime Leaderboard</h3>
                         <?php include('../includes/playtime_cmi_database.php'); ?>
                     </div>
                 </div>
