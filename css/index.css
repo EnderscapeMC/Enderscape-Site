@@ -144,8 +144,8 @@ svg path {
 
 #leaderboards section {
   margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   padding: 20px;
   width: 70%;
   background: rgb(25, 25, 25, 0.5);
@@ -168,7 +168,11 @@ table#leaderboard-table {
 }
 
 h3 {
-  margin: 50px 0px 20px 0px;
+  margin: 30px 0px 20px 0px;
+}
+
+tr {
+  border-bottom: 1px solid white;
 }
 
 td {
