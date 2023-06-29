@@ -10,7 +10,7 @@
     </head>
     <body>
         <div id="home">
-            <nav id="nav">
+            <nav id="nav" class="no-background">
                 <a href="#home" onclick="smoothScroll(event, 'home')"><img src="images/enderscape-logo.png" alt="Desaturated version of the Enderscape logo, a Minecraft parrot."></a>
                 <ul class="menu">
                     <li><a href="#home" onclick="smoothScroll(event, 'home')"><img src="images/home-icon.png"><h3>Home</h3></a></li>
@@ -22,7 +22,7 @@
                     <li><a href="#quizzes" onclick="smoothScroll(event, 'quizzes')"><img src="images/quizzes-icon.png"><h3>Quizzes</h3></a></li>
                 </ul>
             </nav>
-            <div class="nav-background"></div>
+            <div id="nav-background" class="hidden"></div>
             <header id="header">
                 <h1 id="title">Enderscape</h1>
                 <h3>Survival | Creative | Duels | Skyblock</h3>
