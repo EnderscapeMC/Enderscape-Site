@@ -76,6 +76,36 @@ nav ul.menu li a:hover {
   color: rgb(225, 225, 225);
 }
 
+nav #hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+nav #hamburger-btn .bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 4px;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul.menu {
+      display: none;
+  }
+
+  nav #hamburger-btn {
+      display: block;
+  }
+
+  nav #hamburger-btn.active .bar {
+      background-color: #ffffff;
+  }
+}
+
 header {
   width: 100%;
   text-align: center;

@@ -25,6 +25,14 @@ document.addEventListener('DOMContentLoaded', function() {
       notification.style.display = 'none';
     }, 2000);
   }
+
+  function toggleMenu() {
+    var menu = document.querySelector('nav ul.menu');
+    var hamburgerBtn = document.getElementById('hamburger-btn');
+
+    menu.classList.toggle('active');
+    hamburgerBtn.classList.toggle('active');
+  }
 });
 
 var nav = document.getElementById("nav");
