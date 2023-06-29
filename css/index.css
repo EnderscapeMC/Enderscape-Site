@@ -28,7 +28,6 @@ nav {
   z-index: 9999;
 }
 
-/* Style the links inside the navigation bar */
 nav a {
   float: left;
   color: rgba(255, 255, 255);
@@ -39,17 +38,14 @@ nav a {
   opacity: 0.4;
 }
 
-/* Change the color of links on hover */
 nav a:hover {
   opacity: 1;
 }
 
-/* Add a color to the active/current link */
-nav a.active {
+nav a:active {
   opacity: 1;
 }
 
-/* Right-aligned section inside the top navigation */
 .nav-right {
   float: right;
 }
