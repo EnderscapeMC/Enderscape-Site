@@ -17,11 +17,6 @@
                         <img src="images/enderscape-logo.png">
                     </picture>
                 </a>
-                <button id="hamburger-btn" onclick="toggleMenu()">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
                 <ul class="menu">
                     <li>
                         <a href="#home" onclick="smoothScroll(event, 'home')">

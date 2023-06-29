@@ -25,14 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
       notification.style.display = 'none';
     }, 2000);
   }
-
-  function toggleMenu() {
-    var menu = document.querySelector('nav ul.menu');
-    menu.classList.toggle('active');
-  }
-
-  var hamburgerBtn = document.getElementById('hamburger-btn');
-  hamburgerBtn.addEventListener('click', toggleMenu);
 });
 
 var nav = document.getElementById("nav");
