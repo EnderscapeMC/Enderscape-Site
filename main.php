@@ -39,7 +39,7 @@
                     <li>
                         <a href="#leaderboards-bottom-row" onclick="smoothScroll(event, 'leaderboards-bottom-row')">
                             <picture>
-                                <source srcset="images/leaderboard.avif">
+                                <source srcset="images/leaderboard-icon.avif">
                                 <img src="images/leaderboard-icon.png">
                             </picture>
                             <h3>Leaderboards</h3>
@@ -48,7 +48,7 @@
                     <li>
                         <a href="#wiki" onclick="smoothScroll(event, 'wiki')">
                             <picture>
-                                <source srcset="images/wiki.avif">
+                                <source srcset="images/wiki-icon.avif">
                                 <img src="images/wiki-icon.png">
                             </picture>
                             <h3>Wiki</h3>
@@ -57,7 +57,7 @@
                     <li>
                         <a href="#vote" onclick="smoothScroll(event, 'vote')">
                             <picture>
-                                <source srcset="images/vote.avif">
+                                <source srcset="images/vote-icon.avif">
                                 <img src="images/vote-icon.png">
                             </picture>
                             <h3>Vote</h3>
@@ -66,7 +66,7 @@
                     <li>
                         <a href="#discord" onclick="smoothScroll(event, 'discord')">
                             <picture>
-                                <source srcset="images/discord.avif">
+                                <source srcset="images/discord-icon.avif">
                                 <img src="images/discord-icon.png">
                             </picture>
                             <h3>Discord</h3>
@@ -75,7 +75,7 @@
                     <li>
                         <a href="#quizzes" onclick="smoothScroll(event, 'quizzes')">
                             <picture>
-                                <source srcset="images/quizzes.avif">
+                                <source srcset="images/quizzes-icon.avif">
                                 <img src="images/quizzes-icon.png">
                             </picture>
                             <h3>Quizzes</h3>
