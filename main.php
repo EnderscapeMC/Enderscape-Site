@@ -68,7 +68,7 @@
                         </picture>
                         <h3>Quizzes</h3>
                     </a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
