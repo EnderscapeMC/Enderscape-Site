@@ -26,9 +26,6 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 9999;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  align-items: center;
 }
 
 nav a {
