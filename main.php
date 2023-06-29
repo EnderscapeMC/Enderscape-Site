@@ -14,8 +14,8 @@
             <nav id="nav">
                 <a href="#home" onclick="smoothScroll(event, 'home')">
                     <picture>
-                        <source srcset="images/enderscape-logo.avif">
-                        <img src="images/enderscape-logo.png">
+                        <source srcset="images/enderscape-logo.avif" style="width: 40px;">
+                        <img src="images/enderscape-logo.png" style="width: 40px;">
                     </picture>
                 </a>
                 <div class="nav-right">

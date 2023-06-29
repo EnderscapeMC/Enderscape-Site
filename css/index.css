@@ -20,30 +20,33 @@ body {
   }
 }
 
-/* Add a black background color to the top navigation */
 nav {
   background: rgb(25, 25, 25, 0.9);
   overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 /* Style the links inside the navigation bar */
 nav a {
   float: left;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  opacity: 0.4;
 }
 
 /* Change the color of links on hover */
 nav a:hover {
-  color: rgb(225, 225, 225);
+  opacity: 1;
 }
 
 /* Add a color to the active/current link */
 nav a.active {
-  color: rgb(225, 225, 225);
+  opacity: 1;
 }
 
 /* Right-aligned section inside the top navigation */
