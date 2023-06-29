@@ -280,11 +280,12 @@ hr {
 
 #quizzes li {
   list-style-type: none;
-  margin: 0;
+  margin: 30px 0px;
   padding: 0;
   background-color: rgb(25, 25, 25, 0.5);
   border-radius: 10px;
   display: flex;
+  transition: transform 0.3s ease-in-out;
 }
 
 #quizzes a {
@@ -294,7 +295,7 @@ hr {
 }
 
 #quizzes img {
-  padding: 25px 10px;
+  padding: 25px 25px;
   width: 20px;
   height: 20px;
 }
@@ -309,6 +310,10 @@ hr {
 #quizzes a:hover {
   opacity: 1;
   color: white;
+}
+
+#quizzes li:hover {
+  transform: translateY(-10px);
 }
 
 footer {
