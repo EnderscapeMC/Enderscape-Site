@@ -120,7 +120,7 @@ a:hover#ip {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.top svg {
+.top {
   width: 100%;
   height: 56px;
   margin-bottom: -5px;
@@ -130,7 +130,7 @@ a:hover#ip {
   transform: scaleY(-1);
 }
 
-.bottom svg {
+.bottom {
   width: 100%;
   height: 56px;
   margin-bottom: -5px;
@@ -142,6 +142,20 @@ a:hover#ip {
 
 svg path {
   fill: rgb(25, 25, 25);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* Safari and Chrome */
+  svg {
+    transform: scale(1, -1);
+  }
+}
+
+@media not all and (min-resolution:.001dpcm) {
+  /* Opera */
+  svg {
+    transform: scale(-1, -1);
+  }
 }
 
 #leaderboards {
@@ -352,18 +366,4 @@ footer a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  /* Safari and Chrome */
-  svg {
-    transform: scale(1, -1);
-  }
-}
-
-@media not all and (min-resolution:.001dpcm) {
-  /* Opera */
-  svg {
-    transform: scale(-1, -1);
-  }
 }
