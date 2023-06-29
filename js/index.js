@@ -33,27 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.style.top = scrollPosition + 'px';
   });
 
-  function smoothScroll(event, targetId) {
-    event.preventDefault();
-
-    const target = document.getElementById(targetId);
-    const windowHeight = window.innerHeight;
-    let scrollPosition;
-
-    if (targetId === 'leaderboards-bottom-row') {
-      scrollPosition = target.offsetTop - (windowHeight / 2);
-    } else if (targetId === 'quizzes') {
-      scrollPosition = target.offsetTop - (windowHeight / 10);
-    } else {
-      scrollPosition = target.offsetTop - (windowHeight / 3);
-    }
-
-    window.scrollTo({
-      top: scrollPosition,
-      behavior: 'smooth'
-    });
-  }
-
   function responsiveMenu() {
     var x = document.getElementById("nav");
     if (x.className === "nav") {
@@ -63,3 +42,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 });
+
+function smoothScroll(event, targetId) {
+  event.preventDefault();
+
+  const target = document.getElementById(targetId);
+  const windowHeight = window.innerHeight;
+  let scrollPosition;
+
+  if (targetId === 'leaderboards-bottom-row') {
+    scrollPosition = target.offsetTop - (windowHeight / 2);
+  } else if (targetId === 'quizzes') {
+    scrollPosition = target.offsetTop - (windowHeight / 10);
+  } else {
+    scrollPosition = target.offsetTop - (windowHeight / 3);
+  }
+
+  window.scrollTo({
+    top: scrollPosition,
+    behavior: 'smooth'
+  });
+}
