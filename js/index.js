@@ -33,6 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
     menu.classList.toggle('active');
     hamburgerBtn.classList.toggle('active');
   }
+
+  var hamburgerBtn = document.getElementById('hamburger-btn');
+  hamburgerBtn.addEventListener('click', toggleMenu);
 });
 
 var nav = document.getElementById("nav");
