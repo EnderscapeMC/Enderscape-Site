@@ -45,7 +45,6 @@ function smoothScroll(event, targetId) {
     scrollPosition = target.offsetTop - (windowHeight / 2);
   } else if (targetId === 'quizzes') {
     scrollPosition = target.offsetTop - (windowHeight / 10);
-    nav.style.background = 'linear-gradient(to bottom, rgba(25, 25, 25, 0.8) 60%, rgba(25, 25, 25, 0));'
   } else {
     scrollPosition = target.offsetTop - (windowHeight / 3);
   }
