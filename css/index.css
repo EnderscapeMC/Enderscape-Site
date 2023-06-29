@@ -279,6 +279,9 @@ hr {
 }
 
 #quizzes li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: rgb(255, 255, 255, 0.5);
 }
 
