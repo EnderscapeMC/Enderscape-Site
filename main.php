@@ -131,7 +131,7 @@
                 <section class="left">
                     <h1>Quizzes</h1>
                     <p>Test your Enderscape knowledge with our collection of quizzes.</p>
-                    <button type="button" onclick="window.open('../html/suggest-quiz.html', '_blank')">Suggest a Quiz</button>
+                    <button type="button" onclick="window.open('#', '_blank')">Suggest a Quiz</button>
                 </section>
                 <section class="right">
                     <ul>
