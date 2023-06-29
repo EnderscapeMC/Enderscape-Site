@@ -297,7 +297,7 @@ hr {
   text-align: center;
 }
 
-#quizzes a:hover {
+#quizzes li:hover a {
   opacity: 1;
   color: rgb(28,44,68);
 }
