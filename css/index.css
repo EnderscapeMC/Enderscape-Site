@@ -153,17 +153,27 @@ svg path {
   fill: rgb(25, 25, 25);
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
   /* Safari and Chrome */
-  svg {
-    transform: scale(1, -1);
+  .top,
+  .bottom {
+    -webkit-filter: drop-shadow(0px -17px 10px rgba(0, 0, 0, 0.5));
   }
 }
 
 @media not all and (min-resolution:.001dpcm) {
   /* Opera */
-  svg {
-    transform: scale(-1, -1);
+  .top,
+  .bottom {
+    filter: drop-shadow(0px 17px 10px rgba(0, 0, 0, 0.5));
+  }
+}
+
+@media not all and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+  /* Firefox */
+  .top,
+  .bottom {
+    filter: drop-shadow(0px -17px 10px rgba(0, 0, 0, 0.5));
   }
 }
 
