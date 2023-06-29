@@ -28,10 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function toggleMenu() {
     var menu = document.querySelector('nav ul.menu');
-    var hamburgerBtn = document.getElementById('hamburger-btn');
-
     menu.classList.toggle('active');
-    hamburgerBtn.classList.toggle('active');
   }
 
   var hamburgerBtn = document.getElementById('hamburger-btn');
