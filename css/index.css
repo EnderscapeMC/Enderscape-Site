@@ -137,8 +137,7 @@ svg path {
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: 0px;
   color: white;
 }
 
@@ -263,8 +262,7 @@ hr {
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: 10px;
   color: white;
 }
 
