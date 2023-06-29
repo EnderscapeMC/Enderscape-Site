@@ -163,7 +163,7 @@
         <footer>
             <p>
                 © Enderscape 2023 | Website by 
-                <a href="https://github.com/maneheks">maneheks</a>
+                <a href="https://github.com/maneheks" target="_blank">maneheks</a>
             </p>
         </footer>
     </body>
