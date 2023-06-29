@@ -9,6 +9,11 @@ body {
 #home {
   background: url("../images/tavern-night.png") no-repeat top/cover;
   margin: -8px;
+  transition: background-color 0.5s ease-in-out; 
+}
+
+#home.dark {
+  background-color: rgba(25, 25, 25, 0.5); 
 }
 
 nav {
