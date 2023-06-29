@@ -47,6 +47,17 @@ nav ul.menu {
   flex-grow: 1;
   list-style-type: none;
   padding: 0;
+  position: fixed;
+  top: 0;
+  right: -100%; 
+  height: 100vh;
+  width: 60%; 
+  background: rgb(25, 25, 25, 0.9);
+  transition: right 0.3s ease-in-out;
+}
+
+nav ul.menu.active {
+  right: 0; 
 }
 
 nav ul.menu li {
