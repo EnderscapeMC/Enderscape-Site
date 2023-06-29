@@ -28,18 +28,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 var nav = document.getElementById("nav");
-var home = document.getElementById("home");
 
 window.addEventListener('scroll', function() {
   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-  // Check if the scroll position is within the height of the nav element
-  if (scrollPosition <= nav.offsetHeight) {
-    home.classList.add("dark"); // Add the 'dark' class to apply the darker background
-  } else {
-    home.classList.remove("dark"); // Remove the 'dark' class to revert to the default background
-  }
-
   nav.style.top = scrollPosition + 'px';
 });
 
