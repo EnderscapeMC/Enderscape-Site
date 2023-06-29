@@ -134,18 +134,26 @@
                     <button type="button" onclick="window.open('../html/suggest-quiz.html', '_blank')">Suggest a Quiz</button>
                 </section>
                 <section class="right">
-                    <a href="../html/lore-quiz.html">
-                        <img src="images/lore-icon.png">
-                        <h2>How well do you know Enderscape lore?</h2>
-                    </a>
-                    <a href="../html/which-staff-are-you.html">
-                        <img src="images/staff-icon.png">
-                        <h2>Which staff member are you?</h2>
-                    </a>
-                    <a href="../html/builds-quiz.html">
-                        <img src="images/grassblock-icon.png">
-                        <h2>Do you know who created these builds?</h2>
-                    </a>
+                    <ul>
+                        <li>
+                            <a href="../html/lore-quiz.html">
+                                <img src="images/lore-icon.png">
+                                <h2>How well do you know Enderscape lore?</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../html/which-staff-are-you.html">
+                                <img src="images/staff-icon.png">
+                                <h2>Which staff member are you?</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../html/builds-quiz.html">
+                                <img src="images/grassblock-icon.png">
+                                <h2>Do you know who created these builds?</h2>
+                            </a>
+                        </li>
+                    </ul>
                 </section>
             </div>
             <svg data-v-6da3ec0c="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

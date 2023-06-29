@@ -278,11 +278,14 @@ hr {
   margin: 0px 0px 20px -4px;
 }
 
+#quizzes li {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
 #quizzes a {
   opacity: 0.4;
   color: rgb(28,44,68, 0.4);
   text-decoration: none;
-  background-color: rgb(255, 255, 255, 0.5);
 }
 
 #quizzes h2 {
