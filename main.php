@@ -22,7 +22,6 @@
                     <li><a href="#quizzes" onclick="smoothScroll(event, 'quizzes')"><img src="images/quizzes-icon.png"><h3>Quizzes</h3></a></li>
                 </ul>
             </nav>
-            <div class="nav-background"></div>
             <header id="header">
                 <h1 id="title">Enderscape</h1>
                 <h3>Survival | Creative | Duels | Skyblock</h3>
