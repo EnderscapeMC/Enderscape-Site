@@ -279,16 +279,20 @@ hr {
 }
 
 #quizzes a {
-  text-decoration: none;
   opacity: 0.4;
+  color: rgb(28,44,68, 0.4);
+}
+
+#quizzes h2 {
   font-size: 18px;
   font-weight: lighter;
   text-align: center;
-  color: rgb(255, 255, 255, 0.4);
+  text-decoration: none;
 }
 
 #quizzes a:hover {
   opacity: 1;
+  color: rgb(28,44,68);
 }
 
 footer {
