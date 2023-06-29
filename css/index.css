@@ -20,59 +20,35 @@ body {
   }
 }
 
+/* Add a black background color to the top navigation */
 nav {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  width: 100%; 
-  padding-left: 6px;
-  top: 0;
-  z-index: 9999;
   background: rgb(25, 25, 25, 0.9);
+  overflow: hidden;
 }
 
-nav img {
-  width: 40px;
-  opacity: 0.4;
-}
-
-nav img:hover,
-nav ul#nav-right li:hover img {
-  opacity: 1;
-}
-
-nav ul#nav-right {
-  display: flex;
-  justify-content: flex-end;
-  flex-grow: 1;
-  padding: 0;
-}
-
-nav ul#nav-right li {
-  margin-right: 25px;
-  display: inline-flex;
-  align-items: center;
-}
-
-nav ul#nav-right li img {
-  margin-right: 8px;
-  margin-bottom: 5px;
-  vertical-align: middle;
-  width: 15px;
-}
-
-nav ul#nav-right li h3 {
-  margin: 0;
-  display: inline;
-}
-
-nav ul#nav-right li a {
-  text-decoration: none;
+/* Style the links inside the navigation bar */
+nav a {
+  float: left;
   color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-nav ul#nav-right li a:hover {
+/* Change the color of links on hover */
+nav a:hover {
   color: rgb(225, 225, 225);
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  color: rgb(225, 225, 225);
+}
+
+/* Right-aligned section inside the top navigation */
+.nav-right {
+  float: right;
 }
 
 header {
