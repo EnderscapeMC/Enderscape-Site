@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="icon" type="image/x-icon" href="images/enderscape-logo.gif">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
@@ -17,71 +18,57 @@
                         <img src="images/enderscape-logo.png">
                     </picture>
                 </a>
-                <ul class="menu">
-                    <li>
-                        <a href="#home" onclick="smoothScroll(event, 'home')">
-                            <picture>
-                                <source srcset="images/home-icon.avif">
-                                <img src="images/home-icon.png">
-                            </picture>
-                            <h3>Home</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#store" onclick="smoothScroll(event, 'store')">
-                            <picture>
-                                <source srcset="images/store-icon.avif">
-                                <img src="images/store-icon.png">
-                            </picture>
-                            <h3>Store</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#leaderboards-bottom-row" onclick="smoothScroll(event, 'leaderboards-bottom-row')">
-                            <picture>
-                                <source srcset="images/leaderboard-icon.avif">
-                                <img src="images/leaderboard-icon.png">
-                            </picture>
-                            <h3>Leaderboards</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#wiki" onclick="smoothScroll(event, 'wiki')">
-                            <picture>
-                                <source srcset="images/wiki-icon.avif">
-                                <img src="images/wiki-icon.png">
-                            </picture>
-                            <h3>Wiki</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#vote" onclick="smoothScroll(event, 'vote')">
-                            <picture>
-                                <source srcset="images/vote-icon.avif">
-                                <img src="images/vote-icon.png">
-                            </picture>
-                            <h3>Vote</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#discord" onclick="smoothScroll(event, 'discord')">
-                            <picture>
-                                <source srcset="images/discord-icon.avif">
-                                <img src="images/discord-icon.png">
-                            </picture>
-                            <h3>Discord</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#quizzes" onclick="smoothScroll(event, 'quizzes')">
-                            <picture>
-                                <source srcset="images/quizzes-icon.avif">
-                                <img src="images/quizzes-icon.png">
-                            </picture>
-                            <h3>Quizzes</h3>
-                        </a>
-                    </li>
-                </ul>
+                <div class="nav-right">
+                    <a href="#home" onclick="smoothScroll(event, 'home')">
+                        <picture>
+                            <source srcset="images/home-icon.avif">
+                            <img src="images/home-icon.png">
+                        </picture>
+                        <h3>Home</h3>
+                    </a>
+                    <a href="#store" onclick="smoothScroll(event, 'store')">
+                        <picture>
+                            <source srcset="images/store-icon.avif">
+                            <img src="images/store-icon.png">
+                        </picture>
+                        <h3>Store</h3>
+                    </a>
+                    <a href="#leaderboards-bottom-row" onclick="smoothScroll(event, 'leaderboards-bottom-row')">
+                        <picture>
+                            <source srcset="images/leaderboard-icon.avif">
+                            <img src="images/leaderboard-icon.png">
+                        </picture>
+                        <h3>Leaderboards</h3>
+                    </a>
+                    <a href="#wiki" onclick="smoothScroll(event, 'wiki')">
+                        <picture>
+                            <source srcset="images/wiki-icon.avif">
+                            <img src="images/wiki-icon.png">
+                        </picture>
+                        <h3>Wiki</h3>
+                    </a>
+                    <a href="#vote" onclick="smoothScroll(event, 'vote')">
+                        <picture>
+                            <source srcset="images/vote-icon.avif">
+                            <img src="images/vote-icon.png">
+                        </picture>
+                        <h3>Vote</h3>
+                    </a>
+                    <a href="#discord" onclick="smoothScroll(event, 'discord')">
+                        <picture>
+                            <source srcset="images/discord-icon.avif">
+                            <img src="images/discord-icon.png">
+                        </picture>
+                        <h3>Discord</h3>
+                    </a>
+                    <a href="#quizzes" onclick="smoothScroll(event, 'quizzes')">
+                        <picture>
+                            <source srcset="images/quizzes-icon.avif">
+                            <img src="images/quizzes-icon.png">
+                        </picture>
+                        <h3>Quizzes</h3>
+                    </a>
+                </div>
             </nav>
             <header id="header">
                 <h1 id="title">Enderscape</h1>

@@ -37,42 +37,41 @@ nav img {
 }
 
 nav img:hover,
-nav ul.menu li:hover img {
+nav ul#nav-right li:hover img {
   opacity: 1;
 }
 
-nav ul.menu {
+nav ul#nav-right {
   display: flex;
   justify-content: flex-end;
   flex-grow: 1;
-  list-style-type: none;
   padding: 0;
 }
 
-nav ul.menu li {
+nav ul#nav-right li {
   margin-right: 25px;
   display: inline-flex;
   align-items: center;
 }
 
-nav ul.menu li img {
+nav ul#nav-right li img {
   margin-right: 8px;
   margin-bottom: 5px;
   vertical-align: middle;
   width: 15px;
 }
 
-nav ul.menu li h3 {
+nav ul#nav-right li h3 {
   margin: 0;
   display: inline;
 }
 
-nav ul.menu li a {
+nav ul#nav-right li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.4);
 }
 
-nav ul.menu li a:hover {
+nav ul#nav-right li a:hover {
   color: rgb(225, 225, 225);
 }
 
