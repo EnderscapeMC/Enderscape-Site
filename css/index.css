@@ -294,7 +294,9 @@ hr {
 }
 
 #quizzes img {
-  padding: 10px;
+  padding: 25px 10px;
+  width: 20px;
+  height: 20px;
 }
 
 #quizzes h2 {
