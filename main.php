@@ -11,7 +11,7 @@
     </head>
     <body>
         <div id="home">
-            <nav id="nav">
+            <nav id="nav" class="nav">
                 <a href="#home" onclick="smoothScroll(event, 'home')">
                     <picture>
                         <source srcset="images/enderscape-logo.avif" style="width: 40px; padding: 8px;">
@@ -67,6 +67,9 @@
                             <img src="images/quizzes-icon.png">
                         </picture>
                         <h3>Quizzes</h3>
+                    </a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
                     </a>
                 </div>
             </nav>
