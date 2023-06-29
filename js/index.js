@@ -25,44 +25,32 @@ document.addEventListener('DOMContentLoaded', function() {
       notification.style.display = 'none';
     }, 2000);
   }
-
-  var nav = document.getElementById('nav');
-  var navBackground = document.getElementById('nav-background');
-  var targetScrollPositions = {
-    'leaderboards-bottom-row': window.innerHeight / 2,
-    'quizzes': window.innerHeight / 10,
-  };
-
-  window.addEventListener('scroll', function() {
-    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-    nav.style.top = scrollTop + 'px';
-
-    for (var targetId in targetScrollPositions) {
-      var target = document.getElementById(targetId);
-      var scrollPosition = target.offsetTop - targetScrollPositions[targetId];
-
-      if (scrollTop >= scrollPosition) {
-        nav.classList.remove('no-background');
-        navBackground.classList.remove('hidden');
-        navBackground.classList.add('show-background');
-      } else {
-        nav.classList.add('no-background');
-        navBackground.classList.remove('show-background');
-        navBackground.classList.add('hidden');
-      }
-    }
-  });
-
-  function smoothScroll(event, targetId) {
-    event.preventDefault();
-
-    const target = document.getElementById(targetId);
-    const scrollPosition = target.offsetTop - targetScrollPositions[targetId];
-
-    window.scrollTo({
-      top: scrollPosition,
-      behavior: 'smooth'
-    });
-  }
 });
+
+var nav = document.getElementById("nav");
+
+window.addEventListener('scroll', function() {
+  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  nav.style.top = scrollPosition + 'px';
+});
+
+function smoothScroll(event, targetId) {
+  event.preventDefault();
+
+  const target = document.getElementById(targetId);
+  const windowHeight = window.innerHeight;
+  let scrollPosition;
+
+  if (targetId === 'leaderboards-bottom-row') {
+    scrollPosition = target.offsetTop - (windowHeight / 2);
+  } else if (targetId === 'quizzes') {
+    scrollPosition = target.offsetTop - (windowHeight / 10);
+  } else {
+    scrollPosition = target.offsetTop - (windowHeight / 3);
+  }
+
+  window.scrollTo({
+    top: scrollPosition,
+    behavior: 'smooth'
+  });
+}

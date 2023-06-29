@@ -22,10 +22,6 @@ nav {
   background: rgb(25, 25, 25, 0.9);
 }
 
-.no-background {
-  background: none;
-}
-
 nav img {
   width: 40px;
   opacity: 0.4;
@@ -71,20 +67,12 @@ nav ul.menu li a:hover {
   color: rgb(225, 225, 225);
 }
 
-#nav-background {
+.nav-background {
   background: linear-gradient(to bottom, rgba(25, 25, 25, 0.9) 10%, rgba(25, 25, 25, 0));
   width: 100%;
   height: 30px;
   margin-top: 56px;
   position: fixed;
-}
-
-.hidden {
-  display: none;
-}
-
-.show-background {
-  background: linear-gradient(to bottom, rgba(25, 25, 25, 0.9) 10%, rgba(25, 25, 25, 0));
 }
 
 header {
