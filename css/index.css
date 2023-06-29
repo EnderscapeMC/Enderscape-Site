@@ -153,27 +153,17 @@ svg path {
   fill: rgb(25, 25, 25);
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
+@media screen and (-webkit-min-device-pixel-ratio:0) {
   /* Safari and Chrome */
-  .top,
-  .bottom {
-    -webkit-filter: drop-shadow(0px -17px 10px rgba(0, 0, 0, 0.5));
+  svg {
+    transform: scale(1, -1);
   }
 }
 
 @media not all and (min-resolution:.001dpcm) {
   /* Opera */
-  .top,
-  .bottom {
-    filter: drop-shadow(0px 17px 10px rgba(0, 0, 0, 0.5));
-  }
-}
-
-@media not all and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
-  /* Firefox */
-  .top,
-  .bottom {
-    filter: drop-shadow(0px -17px 10px rgba(0, 0, 0, 0.5));
+  svg {
+    transform: scale(-1, -1);
   }
 }
 
@@ -323,7 +313,7 @@ hr {
   #quizzes {
     background-image: image-set(
       url('../images/ocean.avif') 1x,
-      url('../images/ocean.jpg') 1x
+      url('../images/sunrise.jpg') 1x
     );
   }
 }
