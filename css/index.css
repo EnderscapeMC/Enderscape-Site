@@ -8,7 +8,16 @@ body {
 }
 
 #home {
-  background: url("../images/tavern-night.png") no-repeat top/cover;
+  background: url("../images/tavern-night.jpg") no-repeat top/cover;
+}
+
+@supports (image-set: url('../images/tavern-night.avif') 1x) {
+  #home {
+    background-image: image-set(
+      url('../images/tavern-night.avif') 1x,
+      url('../images/tavern-night.jpg') 1x
+    );
+  }
 }
 
 nav {
@@ -159,12 +168,21 @@ svg path {
 }
 
 #leaderboards {
-  background-image: url("../images/sunrise.png");
+  background-image: url("../images/sunrise.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
   color: white;
+}
+
+@supports (image-set: url('../images/sunrise.avif') 1x) {
+  #leaderboards {
+    background-image: image-set(
+      url('../images/sunrise.avif') 1x,
+      url('../images/sunrise.jpg') 1x
+    );
+  }
 }
 
 #leaderboards section {
@@ -283,12 +301,21 @@ hr {
 }
 
 #quizzes {
-  background-image: url("../images/ocean.png");
+  background-image: url("../images/ocean.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
   color: white;
+}
+
+@supports (image-set: url('../images/ocean.avif') 1x) {
+  #quizzes {
+    background-image: image-set(
+      url('../images/ocean.avif') 1x,
+      url('../images/ocean.jpg') 1x
+    );
+  }
 }
 
 #quizzes .right {

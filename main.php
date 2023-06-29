@@ -11,22 +11,90 @@
     <body>
         <div id="home">
             <nav id="nav">
-                <a href="#home" onclick="smoothScroll(event, 'home')"><img src="images/enderscape-logo.png" alt="Desaturated version of the Enderscape logo, a Minecraft parrot."></a>
+                <a href="#home" onclick="smoothScroll(event, 'home')">
+                    <picture>
+                        <source srcset="images/enderscape-logo.avif">
+                        <img src="images/enderscape-logo.png">
+                    </picture>
+                </a>
                 <ul class="menu">
-                    <li><a href="#home" onclick="smoothScroll(event, 'home')"><img src="images/home-icon.png"><h3>Home</h3></a></li>
-                    <li><a href="#store" onclick="smoothScroll(event, 'store')"><img src="images/store-icon.png"><h3>Store</h3></a></li>
-                    <li><a href="#leaderboards-bottom-row" onclick="smoothScroll(event, 'leaderboards-bottom-row')"><img src="images/leaderboard-icon.png"><h3>Leaderboards</h3></a></li>
-                    <li><a href="#wiki" onclick="smoothScroll(event, 'wiki')"><img src="images/wiki-icon.png"><h3>Wiki</h3></a></li>
-                    <li><a href="#vote" onclick="smoothScroll(event, 'vote')"><img src="images/vote-icon.png"><h3>Vote</h3></a></li>
-                    <li><a href="#discord" onclick="smoothScroll(event, 'discord')"><img src="images/discord-icon.png"><h3>Discord</h3></a></li>
-                    <li><a href="#quizzes" onclick="smoothScroll(event, 'quizzes')"><img src="images/quizzes-icon.png"><h3>Quizzes</h3></a></li>
+                    <li>
+                        <a href="#home" onclick="smoothScroll(event, 'home')">
+                            <picture>
+                                <source srcset="images/home-icon.avif">
+                                <img src="images/home-icon.png">
+                            </picture>
+                            <h3>Home</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#store" onclick="smoothScroll(event, 'store')">
+                            <picture>
+                                <source srcset="images/store-icon.avif">
+                                <img src="images/store-icon.png">
+                            </picture>
+                            <h3>Store</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#leaderboards-bottom-row" onclick="smoothScroll(event, 'leaderboards-bottom-row')">
+                            <picture>
+                                <source srcset="images/leaderboard.avif">
+                                <img src="images/leaderboard-icon.png">
+                            </picture>
+                            <h3>Leaderboards</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#wiki" onclick="smoothScroll(event, 'wiki')">
+                            <picture>
+                                <source srcset="images/wiki.avif">
+                                <img src="images/wiki-icon.png">
+                            </picture>
+                            <h3>Wiki</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#vote" onclick="smoothScroll(event, 'vote')">
+                            <picture>
+                                <source srcset="images/vote.avif">
+                                <img src="images/vote-icon.png">
+                            </picture>
+                            <h3>Vote</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#discord" onclick="smoothScroll(event, 'discord')">
+                            <picture>
+                                <source srcset="images/discord.avif">
+                                <img src="images/discord-icon.png">
+                            </picture>
+                            <h3>Discord</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#quizzes" onclick="smoothScroll(event, 'quizzes')">
+                            <picture>
+                                <source srcset="images/quizzes.avif">
+                                <img src="images/quizzes-icon.png">
+                            </picture>
+                            <h3>Quizzes</h3>
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <header id="header">
                 <h1 id="title">Enderscape</h1>
                 <h3>Survival | Creative | Duels | Skyblock</h3>
                 <div id="ip">
-                    <a href="#"><h3>IP: enderscape.net</h3><img src="images/clipboard-icon.png"></a><br>
+                    <a href="#">
+                        <h3>IP: enderscape.net</h3>
+                        <picture>
+                            <source srcset="images/clipboard-icon.avif">
+                            <img src="images/clipboard-icon.png">
+                        </picture>
+                    </a>
+                    <br>
                     <?php include('../includes/online_players.php'); ?>
                 </div>
                 <div id="notification">IP has been copied to clipboard!</div>
@@ -138,19 +206,28 @@
                     <ul>
                         <a href="../html/lore-quiz.html">
                             <li>
-                                <img src="images/lore-icon.png">
+                                <picture>
+                                    <source srcset="images/lore-icon.avif">
+                                    <img src="images/lore-icon.png">
+                                </picture>
                                 <h2>How well do you know Enderscape lore?</h2>
                             </li>
                         </a>
                         <a href="../html/which-staff-are-you.html">
                             <li>
-                                <img src="images/staff-icon.png">
+                                <picture>
+                                    <source srcset="images/staff-icon.avif">
+                                    <img src="images/staff-icon.png">
+                                </picture>
                                 <h2>Which staff member are you?</h2>
                             </li>
                         </a>
                         <a href="../html/builds-quiz.html">
                             <li>
-                                <img src="images/grassblock-icon.png">
+                                <picture>
+                                    <source srcset="images/grassblock-icon.avif">
+                                    <img src="images/grassblock-icon.png">
+                                </picture>
                                 <h2>Do you know who created these builds?</h2>
                             </li>
                         </a>
