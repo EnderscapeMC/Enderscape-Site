@@ -54,3 +54,22 @@ function smoothScroll(event, targetId) {
     behavior: 'smooth'
   });
 }
+
+window.addEventListener('scroll', function() {
+  var quizzesSection = document.getElementById('quizzes');
+  var nav = document.getElementById('nav');
+  var navBackground = document.getElementById('nav-background');
+
+  var quizzesSectionTop = quizzesSection.offsetTop;
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop >= quizzesSectionTop) {
+    nav.classList.remove('no-background');
+    navBackground.classList.remove('hidden');
+    navBackground.classList.add('show-background');
+  } else {
+    nav.classList.add('no-background');
+    navBackground.classList.remove('show-background');
+    navBackground.classList.add('hidden');
+  }
+});
