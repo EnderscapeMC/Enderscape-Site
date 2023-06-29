@@ -4,11 +4,11 @@ html {
 
 body {
   background-color: rgb(25, 25, 25);
+  margin: auto;
 }
 
 #home {
   background: url("../images/tavern-night.png") no-repeat top/cover;
-  margin: -8px -7px 0px -8px;
 }
 
 nav {
@@ -137,7 +137,6 @@ svg path {
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
-  margin: 0px;
   color: white;
 }
 
@@ -262,7 +261,6 @@ hr {
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
-  margin: 10px;
   color: white;
 }
 
