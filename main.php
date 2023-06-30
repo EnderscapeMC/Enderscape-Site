@@ -12,56 +12,56 @@
     <body>
         <div id="home">
             <nav>
-                <a href="#home">
+                <a href="#home" onclick="smoothScroll(event, 'home')">
                     <picture>
                         <source srcset="images/enderscape-logo.avif" style="width: 40px; padding: 12px 12px 12px 0px;">
                         <img src="images/enderscape-logo.png" style="width: 40px;  padding: 12px 12px 12px 0px;">
                     </picture>
                 </a>
                 <div class="topnav" id="topnav">
-                    <a href="#home" class="firstmenu">
+                    <a href="#home" class="firstmenu" onclick="smoothScroll(event, 'home')">
                         <picture>
                             <source srcset="images/home-icon.avif">
                             <img src="images/home-icon.png">
                         </picture>
                         <h3>Home</h3>
                     </a>
-                    <a href="#store" class="menuitem">
+                    <a href="#store" class="menuitem" onclick="smoothScroll(event, 'store')">
                         <picture>
                             <source srcset="images/store-icon.avif">
                             <img src="images/store-icon.png">
                         </picture>
                         <h3>Store</h3>
                     </a>
-                    <a href="#leaderboards-bottom-row" class="menuitem">
+                    <a href="#leaderboards-bottom-row" class="menuitem" onclick="smoothScroll(event, 'leaderboards-bottom-row')">
                         <picture>
                             <source srcset="images/leaderboard-icon.avif">
                             <img src="images/leaderboard-icon.png">
                         </picture>
                         <h3>Leaderboards</h3>
                     </a>
-                    <a href="#wiki" class="menuitem">
+                    <a href="#wiki" class="menuitem" onclick="smoothScroll(event, 'wiki')">
                         <picture>
                             <source srcset="images/wiki-icon.avif">
                             <img src="images/wiki-icon.png">
                         </picture>
                         <h3>Wiki</h3>
                     </a>
-                    <a href="#vote" class="menuitem">
+                    <a href="#vote" class="menuitem" onclick="smoothScroll(event, 'vote')">
                         <picture>
                             <source srcset="images/vote-icon.avif">
                             <img src="images/vote-icon.png">
                         </picture>
                         <h3>Vote</h3>
                     </a>
-                    <a href="#discord" class="menuitem">
+                    <a href="#discord" class="menuitem" onclick="smoothScroll(event, 'discord')">
                         <picture>
                             <source srcset="images/discord-icon.avif">
                             <img src="images/discord-icon.png">
                         </picture>
                         <h3>Discord</h3>
                     </a>
-                    <a href="#quizzes" class="menuitem">
+                    <a href="#quizzes" class="menuitem" onclick="smoothScroll(event, 'quizzes')">
                         <picture>
                             <source srcset="images/quizzes-icon.avif">
                             <img src="images/quizzes-icon.png">
