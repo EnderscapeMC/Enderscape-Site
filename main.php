@@ -1,74 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
         <link rel="icon" type="image/x-icon" href="images/enderscape-logo.gif">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
         <script src="js/index.js"></script> 
+        <title>Home</title>
     </head>
     <body>
         <div id="home">
-            <nav id="nav" class="nav">
-                <a href="#home" onclick="smoothScroll(event, 'home')">
+            <nav>
+                <a href="#home">
                     <picture>
-                        <source srcset="images/enderscape-logo.avif" style="width: 40px; padding: 8px;">
-                        <img src="images/enderscape-logo.png" style="width: 40px;  padding: 8px;">
+                        <source srcset="images/enderscape-logo.avif" style="width: 40px; padding: 12px 12px 12px 0px;">
+                        <img src="images/enderscape-logo.png" style="width: 40px;  padding: 12px 12px 12px 0px;">
                     </picture>
                 </a>
-                <div class="nav-right">
-                    <a href="#home" onclick="smoothScroll(event, 'home')">
+                <div class="topnav" id="topnav">
+                    <a href="#home" class="firstmenu">
                         <picture>
                             <source srcset="images/home-icon.avif">
                             <img src="images/home-icon.png">
                         </picture>
                         <h3>Home</h3>
                     </a>
-                    <a href="#store" onclick="smoothScroll(event, 'store')">
+                    <a href="#store" class="menuitem">
                         <picture>
                             <source srcset="images/store-icon.avif">
                             <img src="images/store-icon.png">
                         </picture>
                         <h3>Store</h3>
                     </a>
-                    <a href="#leaderboards-bottom-row" onclick="smoothScroll(event, 'leaderboards-bottom-row')">
+                    <a href="#leaderboards-bottom-row" class="menuitem">
                         <picture>
                             <source srcset="images/leaderboard-icon.avif">
                             <img src="images/leaderboard-icon.png">
                         </picture>
                         <h3>Leaderboards</h3>
                     </a>
-                    <a href="#wiki" onclick="smoothScroll(event, 'wiki')">
+                    <a href="#wiki" class="menuitem">
                         <picture>
                             <source srcset="images/wiki-icon.avif">
                             <img src="images/wiki-icon.png">
                         </picture>
                         <h3>Wiki</h3>
                     </a>
-                    <a href="#vote" onclick="smoothScroll(event, 'vote')">
+                    <a href="#vote" class="menuitem">
                         <picture>
                             <source srcset="images/vote-icon.avif">
                             <img src="images/vote-icon.png">
                         </picture>
                         <h3>Vote</h3>
                     </a>
-                    <a href="#discord" onclick="smoothScroll(event, 'discord')">
+                    <a href="#discord" class="menuitem">
                         <picture>
                             <source srcset="images/discord-icon.avif">
                             <img src="images/discord-icon.png">
                         </picture>
                         <h3>Discord</h3>
                     </a>
-                    <a href="#quizzes" onclick="smoothScroll(event, 'quizzes')">
+                    <a href="#quizzes" class="menuitem">
                         <picture>
                             <source srcset="images/quizzes-icon.avif">
                             <img src="images/quizzes-icon.png">
                         </picture>
                         <h3>Quizzes</h3>
                     </a>
-                    <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+                    <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
