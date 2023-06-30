@@ -52,6 +52,7 @@ nav a:active {
 .nav-right {
   display: flex;
   align-items: center;
+  float: right;
 }
 
 nav .icon {
