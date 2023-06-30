@@ -33,7 +33,8 @@ var nav = document.getElementById("nav");
 
 window.addEventListener('scroll', function() {
   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-  nav.style.top = scrollPosition + 'px';
+  nav.style.position = 'fixed';
+  nav.style.top = '0';
 });
 
 function smoothScroll(event, targetId) {
