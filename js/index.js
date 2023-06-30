@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-
   var header = document.getElementById('header');
   var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
@@ -26,6 +25,15 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
       notification.style.display = 'none';
     }, 2000);
+  }
+
+  function responsiveMenu() {
+    var nav = document.getElementById("nav");
+    if (nav.className === "nav") {
+      nav.className += " responsive";
+    } else {
+      nav.className = "nav";
+    }
   }
 });
 
