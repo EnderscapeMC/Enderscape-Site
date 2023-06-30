@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+
   var header = document.getElementById('header');
   var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
   header.style.height = windowHeight + 'px';
 
   var ip = document.getElementById('ip');
@@ -25,39 +27,29 @@ document.addEventListener('DOMContentLoaded', function() {
       notification.style.display = 'none';
     }, 2000);
   }
+});
 
-  var nav = document.getElementById("nav");
+var nav = document.getElementById("nav");
 
-  window.addEventListener('scroll', function() {
-    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-    nav.style.top = scrollPosition + 'px';
-  });
-
-  function responsiveMenu() {
-    var x = document.getElementById("nav");
-    if (x.className === "nav") {
-      x.className += " responsive";
-    } else {
-      x.className = "nav";
-    }
-  }
+window.addEventListener('scroll', function() {
+  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  nav.style.top = scrollPosition + 'px';
 });
 
 function smoothScroll(event, targetId) {
   event.preventDefault();
-
   const target = document.getElementById(targetId);
   const windowHeight = window.innerHeight;
   let scrollPosition;
 
   if (targetId === 'leaderboards-bottom-row') {
+    scrollPosition = target.offsetTop - (windowHeight / 3);
     scrollPosition = target.offsetTop - (windowHeight / 2);
   } else if (targetId === 'quizzes') {
     scrollPosition = target.offsetTop - (windowHeight / 10);
   } else {
     scrollPosition = target.offsetTop - (windowHeight / 3);
   }
-
   window.scrollTo({
     top: scrollPosition,
     behavior: 'smooth'
