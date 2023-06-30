@@ -14,7 +14,7 @@ ip.addEventListener('click', function(event) {
   });
 });
 
-function showNotification() {
+function showNotification() { 
   var ip = document.getElementById('ip');
   var ipPosition = ip.getBoundingClientRect();
   var notification = document.getElementById('notification');
