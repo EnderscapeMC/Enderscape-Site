@@ -92,7 +92,10 @@ nav a:active {
   .topnav.responsive a.firstmenu {
       justify-content: right;
       padding-right: 20px;
-      padding-top: 20px;
+  }
+
+  .topnav.responsive a.firstmenu {
+      padding-top: 60px;    
   }
 }
 
