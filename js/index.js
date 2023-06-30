@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 2000);
   }
 
-  function responsiveMenu() {
-    var nav = document.getElementById("nav");
-    if (nav.className === "nav") {
-      nav.className += " responsive";
+  function responsiveNav() {
+    var x = document.getElementById("topnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
     } else {
-      nav.className = "nav";
+        x.className = "topnav";
     }
   }
 });
