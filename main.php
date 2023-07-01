@@ -24,7 +24,7 @@
                             <source srcset="images/home-icon.avif">
                             <img src="images/home-icon.png">
                         </picture>
-                        <h3>Home</h3>
+                        <h3>Home</h3> 
                     </a>
                     <a href="#store" class="menuitem" onclick="smoothScroll(event, 'store')">
                         <picture>
