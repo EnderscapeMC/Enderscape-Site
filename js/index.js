@@ -25,13 +25,17 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
 
-    function showNotification() { 
-      var col10 = document.querySelector('.col-10');
-      var col10Position = col10.getBoundingClientRect();
+    function showNotification() {
+      var ip = document.getElementById('ip');
       var notification = document.getElementById('notification');
       notification.style.display = 'block';
-      notification.style.top = col10Position.bottom + 'px';
-      notification.style.left = col10Position.left + 'px';
+    
+      var offsetTop = ip.offsetHeight + ip.offsetTop;
+      var offsetLeft = ip.offsetLeft;
+    
+      notification.style.top = offsetTop + 'px';
+      notification.style.left = offsetLeft + 'px';
+    
       setTimeout(function() {
         notification.style.display = 'none';
       }, 2000);
