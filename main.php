@@ -75,8 +75,8 @@
             </nav>
             <header id="header">
                 <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-6">
+                    <div class="col-2"></div>
+                    <div class="col-8">
                         <h1 id="title">Enderscape</h1>
                         <h3>Survival | Creative | Duels | Skyblock</h3>
                         <div id="ip">
@@ -92,7 +92,7 @@
                         </div>
                         <div id="notification">IP has been copied to clipboard!</div>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="col-2"></div>
                 </div>
             </header>
             <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="top">
