@@ -26,16 +26,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function showNotification() { 
-      var ip = document.getElementById('ip');
-      var ipPosition = ip.getBoundingClientRect();
+      var col10 = document.querySelector('.col-10');
+      var col10Position = col10.getBoundingClientRect();
       var notification = document.getElementById('notification');
       notification.style.display = 'block';
-      notification.style.top = ipPosition.bottom + 'px';
-      notification.style.left = ipPosition.left + 'px';
+      notification.style.top = col10Position.bottom + 'px';
+      notification.style.left = col10Position.left + 'px';
       setTimeout(function() {
         notification.style.display = 'none';
       }, 2000);
-    }
+    }    
     
     var nav = document.getElementById("nav");
 
