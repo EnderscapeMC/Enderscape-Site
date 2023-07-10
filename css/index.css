@@ -27,52 +27,6 @@
   display: table;
 }
 
-@media screen and (max-width: 1100px) {
-  .topnav a {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-  }   
-
-  .topnav.responsive a {
-      float: none;
-      display: flex;
-  }
-
-  .topnav.responsive a.menuitem,
-  .topnav.responsive a.firstmenu {
-      justify-content: right;
-      padding-right: 20px;
-  }
-
-  .topnav.responsive a.firstmenu {
-      padding-top: 60px;    
-  } 
-}
-
-@media (max-width: 400px) {
-  #title {
-    font-size: 38px;
-  }
-
-  header h3 {
-    font-size: 16px !important;
-  }
-
-  #ip {
-    width: 230px !important;
-  }
-}
-
 html {
   font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -143,6 +97,38 @@ nav a:active {
   padding: 20px;
 }
 
+@media screen and (max-width: 1100px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }   
+
+  .topnav.responsive a {
+      float: none;
+      display: flex;
+  }
+
+  .topnav.responsive a.menuitem,
+  .topnav.responsive a.firstmenu {
+      justify-content: right;
+      padding-right: 20px;
+  }
+
+  .topnav.responsive a.firstmenu {
+      padding-top: 60px;    
+  } 
+}
+
 header {
   text-align: center;
   color: rgba(255, 255, 255);
@@ -181,6 +167,20 @@ header {
 a:hover#ip {
   color: rgb(225, 225, 225);
   font-weight: bold;
+}
+
+@media (max-width: 400px) {
+  #title {
+    font-size: 38px;
+  }
+
+  header h3 {
+    font-size: 16px !important;
+  }
+
+  #ip {
+    width: 230px !important;
+  }
 }
 
 #notification {
