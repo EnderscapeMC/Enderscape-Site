@@ -25,21 +25,17 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
 
-    function showNotification() {
+    function showNotification() { 
       var ip = document.getElementById('ip');
+      var ipPosition = ip.getBoundingClientRect();
       var notification = document.getElementById('notification');
       notification.style.display = 'block';
-    
-      var offsetTop = ip.offsetHeight + ip.offsetTop;
-      var offsetLeft = ip.offsetLeft;
-    
-      notification.style.top = offsetTop + 'px';
-      notification.style.left = offsetLeft + 'px';
-    
+      notification.style.top = ipPosition.bottom + 'px';
+      notification.style.left = ipPosition.left + 'px';
       setTimeout(function() {
         notification.style.display = 'none';
       }, 2000);
-    }    
+    }  
     
     var nav = document.getElementById("nav");
 
