@@ -180,6 +180,18 @@ a:hover#ip {
   font-weight: bold;
 }
 
+@media (max-width: 720px) {
+  #title {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  #title {
+    font-size: 60px;
+  }
+}
+
 @media (max-width: 400px) {
   #title {
     font-size: 40px;
