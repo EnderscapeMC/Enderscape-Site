@@ -74,20 +74,26 @@
                 </div>
             </nav>
             <header id="header">
-                <h1 id="title">Enderscape</h1>
-                <h3>Survival | Creative | Duels | Skyblock</h3>
-                <div id="ip">
-                    <a href="#">
-                        <h3>IP: enderscape.net</h3>
-                        <picture>
-                            <source srcset="images/clipboard-icon.avif">
-                            <img src="images/clipboard-icon.png">
-                        </picture>
-                    </a>
-                    <br>
-                    <?php include('../includes/online_players.php'); ?>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <h1 id="title">Enderscape</h1>
+                        <h3>Survival | Creative | Duels | Skyblock</h3>
+                        <div id="ip">
+                            <a href="#">
+                                <h3>IP: enderscape.net</h3>
+                                <picture>
+                                    <source srcset="images/clipboard-icon.avif">
+                                    <img src="images/clipboard-icon.png">
+                                </picture>
+                            </a>
+                            <br>
+                            <?php include('../includes/online_players.php'); ?>
+                        </div>
+                        <div id="notification">IP has been copied to clipboard!</div>
+                    </div>
+                    <div class="col-3"></div>
                 </div>
-                <div id="notification">IP has been copied to clipboard!</div>
             </header>
             <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="top">
                 <path d="M0 88L25 93.2C50 98.3 100 108.7 150 110C200 111.3 250 103.7 300 96.7C350 89.7 400 83.3 450 85.3C500 87.3 550 97.7 600 104.2C650 110.7 700 113.3 750 113.8C800 114.3 850 112.7 900 107.8C950 103 1000 95 1050 94.2C1100 93.3 1150 99.7 1175 102.8L1200 106L1200 121L1175 121C1150 121 1100 121 1050 121C1000 121 950 121 900 121C850 121 800 121 750 121C700 121 650 121 600 121C550 121 500 121 450 121C400 121 350 121 300 121C250 121 200 121 150 121C100 121 50 121 25 121L0 121Z" fill="#191919" stroke-linecap="round" stroke-linejoin="miter"></path>
