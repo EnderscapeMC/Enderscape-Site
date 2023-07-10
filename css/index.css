@@ -95,7 +95,7 @@ nav a:active {
 .topnav .icon {
   display: none;
   font-size: 30px;
-  padding: 20px;
+  padding: 5px 20px;
 }
 
 @media screen and (max-width: 1100px) {
