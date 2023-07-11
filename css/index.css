@@ -408,24 +408,26 @@ footer a:hover {
 
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
   }   
 
-  .topnav.responsive a {
-      float: none;
-      display: flex;
+  .topnav.responsive a,
+  .topnav.responsive a.menuitem,
+  .topnav.responsive a.firstmenu {
+    float: none;
+    display: flex;
   }
 
   .topnav.responsive a.menuitem,
   .topnav.responsive a.firstmenu {
-      justify-content: right;
-      padding-right: 40px;
+    justify-content: right;
+    padding-right: 40px;
   }
 
   .topnav.responsive a.firstmenu {
-      padding-top: 60px;    
+    padding-top: 60px;    
   } 
 
   #leaderboards section {
