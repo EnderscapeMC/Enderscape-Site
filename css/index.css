@@ -154,11 +154,12 @@ a:hover#ip {
 #notification {
   display: none;
   padding: 10px;
-  margin: auto;
+  margin: 100px auto;
   color: rgb(225, 225, 225);
   background-color: rgba(25, 25, 25, 0.6);
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
 }
 
 svg.top {
