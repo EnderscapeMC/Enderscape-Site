@@ -17,7 +17,6 @@
 
 [class*="col-"] {
   float: left;
-  padding: 5px;
   border: 1px solid red;
 }
 
@@ -32,7 +31,7 @@ html {
 }
 
 body {
-  background-color: rgb(25, 25, 25);
+  background-color: none;
   margin: auto;
 }
 
@@ -304,6 +303,7 @@ td {
 #quizzes div {
   margin: 0 auto;
   color: white;
+  background-color: rgb(25, 25, 25);
 }
 
 #store h1,
