@@ -466,6 +466,11 @@ footer a:hover {
     margin: 0;
     text-align: center !important;
   }
+
+  #quizzes li {
+    margin-left: -15px;
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -477,6 +482,10 @@ footer a:hover {
 @media (max-width: 720px) {
   #title {
     font-size: 80px;
+  }
+
+  #quizzes li {
+    width: 350px;
   }
 }
 
