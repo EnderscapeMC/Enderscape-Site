@@ -102,15 +102,17 @@
             </div>
         </div>
         <div id="store">
-            <div>
-                <section class="left">
+            <div class="row">
+                <div class="col-2"></div>
+                <section class="col-3">
                     <h1>Store</h1>
                 </section>
-                <section class="right">
+                <section class="col-5">
                     <p>Here you can buy a variety of in-game products for real-world currency.</p>
                     <p>By purchasing from our store, you are supporting the server, ensuring it stays online for years to come.</p>
                     <button type="button" onclick="window.open('https://store.enderscape.net/', '_blank')">Visit Store</button>
                 </section>
+                <div class="col-2"></div>
             </div>
         </div>
         <div id="leaderboards">
