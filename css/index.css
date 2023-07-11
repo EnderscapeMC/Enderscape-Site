@@ -270,22 +270,21 @@ svg.bottom {
   text-align: center;
 }
 
-#leaderboards-top-row,
-#leaderboards-bottom-row {
-  display: flex;
-}
-
-#leaderboards-top-row {
-  margin-bottom: 10px;
-}
-
-.leaderboard {
-  margin: auto;
+#leaderboards section .col-3 {
+  padding-bottom: 20px;
 }
 
 table#leaderboard-table {
-  margin-bottom: 20px;
   border-collapse: collapse;
+  margin: auto;
+}
+
+h3 {
+  margin: 10px 0px 10px 0px
+}
+
+#leaderboards h3 {
+  margin-bottom: 20px;
 }
 
 tr {
@@ -293,7 +292,7 @@ tr {
 }
 
 td {
-  width: 150px;
+  width: 200px;
   padding: 10px;
 }
 
