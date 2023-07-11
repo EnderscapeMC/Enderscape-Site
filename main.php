@@ -33,7 +33,7 @@
                         </picture>
                         <h3>Store</h3>
                     </a>
-                    <a href="#leaderboards-bottom-row" class="menuitem" onclick="smoothScroll(event, 'leaderboards-bottom-row')">
+                    <a href="#leaderboard-anchor" class="menuitem" onclick="smoothScroll(event, 'leaderboard-anchor')">
                         <picture>
                             <source srcset="images/leaderboard-icon.avif">
                             <img src="images/leaderboard-icon.png">
@@ -132,6 +132,7 @@
                         <?php include('../includes/mcmmo_database.php'); ?>
                     </div>
                 </div>
+                <div id="leaderboard-anchor" style="display: none;"></div>
                 <div class="row">
                     <div class="col-4">
                         <h3>Rank Leaderboard</h3>
