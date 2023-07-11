@@ -388,9 +388,7 @@ footer a:hover {
 
 /* media queries */
 @media screen and (max-width: 1700px) {
-  #leaderboards section .col-1, #leaderboards section .col-2, #leaderboards section .col-3, #leaderboards section .col-4, 
-  #leaderboards section .col-5, #leaderboards section .col-6, #leaderboards section .col-7, #leaderboards section .col-8, 
-  #leaderboards section .col-9, #leaderboards section .col-10, #leaderboards section .col-11 {
+  #leaderboards section .col-4, #store .col-2, #store .col-3, #store .col-5  {
     width: 100%;
   }
 
