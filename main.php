@@ -153,41 +153,47 @@
             </svg>
         </div>
         <div id="wiki">
-            <div>
-                <section class="left">
+            <div class="row">
+                <div class="col-2"></div>
+                <section class="col-3">
                     <h1>Wiki</h1>
                 </section>
-                <section class="right">
+                <section class="col-5">
                     <p>Ever wondered how the Lands menu works or how to make more money on the server?</p>
                     <p>The Enderscape Wiki is currently being built and will contain everything you need to know about the server and it's features.</p>
                     <button type="button" onclick="window.open('https://docs.enderscape.net', '_blank')">Visit Wiki</button>
                 </section>
+                <div class="col-2"></div>
             </div>
         </div>
         <hr>
         <div id="vote">
-            <div>
-                <section class="left">
+            <div class="row">
+                <div class="col-2"></div>
+                <section class="col-3">
                     <h1>Vote</h1>
                 </section>
-                <section class="right">
+                <section class="col-5">
                     <p>Vote for Enderscape and get rewarded with in-game perks.</p>
                     <p>By voting you can earn exclusive vote tags to showcase your dedication and Cubelet keys to unlock randomised prizes.</p>
                     <button type="button" onclick="window.open('../html/vote.php', '_blank')">Vote Now</button>
                 </section>
+                <div class="col-2"></div>
             </div>
         </div>
         <hr>
         <div id="discord">
-            <div>
-                <section class="left">
+            <div class="row">
+                <div class="col-2"></div>
+                <section class="col-3">
                     <h1>Discord</h1>
                 </section>
-                <section class="right">
+                <section class="col-5">
                     <p>Join the server's Discord to connect with other players, have your say on the server and stay up to date with changes and announcements.</p>
                     <p>You can link your Minecraft account with our Discord server by typing /link in game.</p>
                     <button type="button" onclick="window.open('https://discord.gg/nHmYSDd8ms', '_blank')">Join the Discord</button>
                 </section>
+                <div class="col-2"></div>
             </div>
         </div>
         <div id="quizzes">
