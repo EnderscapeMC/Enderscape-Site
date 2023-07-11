@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var ipPosition = ip.getBoundingClientRect();
       var notification = document.getElementById('notification');
       notification.style.display = 'block';
-      notification.style.top = ipPosition.bottom + 'px';
+      notification.style.top = ipPosition.top + 'px';
       notification.style.left = ipPosition.left + 'px';
       setTimeout(function() {
         notification.style.display = 'none';

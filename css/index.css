@@ -68,6 +68,8 @@ nav a {
   grid-template-columns: auto auto auto auto auto auto;
   align-items: center;
   gap: 10px;
+  margin-right: -30px;
+  padding-left: 30px;
 }
 
 nav a:hover {
@@ -94,7 +96,7 @@ nav a:active {
 .topnav .icon {
   display: none;
   font-size: 30px;
-  padding: 20px;
+  padding: 5px 40px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -121,7 +123,7 @@ nav a:active {
   .topnav.responsive a.menuitem,
   .topnav.responsive a.firstmenu {
       justify-content: right;
-      padding-right: 20px;
+      padding-right: 40px;
   }
 
   .topnav.responsive a.firstmenu {
@@ -154,7 +156,7 @@ header {
   border-radius: 8px;
   margin: auto;
   margin-top: 0;
-  padding-bottom: 25px;
+  padding: 10px 0px 25px 0px;
   width: 300px;
 }
 
@@ -179,9 +181,21 @@ a:hover#ip {
   font-weight: bold;
 }
 
+@media (max-width: 720px) {
+  #title {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  #title {
+    font-size: 60px;
+  }
+}
+
 @media (max-width: 400px) {
   #title {
-    font-size: 38px;
+    font-size: 40px;
   }
 
   header h3 {
@@ -265,7 +279,7 @@ table#leaderboard-table {
 }
 
 h3 {
-  margin: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 tr {
