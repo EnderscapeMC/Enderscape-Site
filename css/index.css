@@ -461,6 +461,10 @@ footer a:hover {
   .col-2 {
     display: none;
   }
+
+  h1 {
+    margin: 0;
+  }
 }
 
 @media (max-width: 720px) {
