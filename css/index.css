@@ -259,6 +259,17 @@ svg.bottom {
   }
 }
 
+@media (max-width: 485px) {
+  .rank {
+    display: none;
+  }
+
+  th, td {
+    font-size: 12px !important;
+    padding-left: 0px !important;
+  }
+}
+
 #leaderboards {
   background-image: url("../images/sunrise.jpg");
   background-repeat: no-repeat;
