@@ -75,6 +75,10 @@ nav a {
   padding-left: 30px;
 }
 
+nav picture {
+  padding-top: 5px;
+}
+
 nav a:hover {
   opacity: 1;
   cursor: pointer;
