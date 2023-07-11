@@ -444,6 +444,8 @@ footer a:hover {
   #discord .col-2, #discord .col-3, #discord .col-5, 
   #quizzes .col-2, #quizzes .col-3, #quizzes .col-5 {
     width: 100%;
+    padding: 0px 50px !important;
+    text-align: center;
   }
 
   .col-2 {
