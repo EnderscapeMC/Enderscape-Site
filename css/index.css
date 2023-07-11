@@ -297,26 +297,13 @@ td {
   font-size: 12px;
 }
 
-#store,
-#wiki,
-#vote,
-#discord,
-#quizzes {
-  color: white;
-  margin: 50px 0px 50px 0px;
-  position: relative;
-}
-
 #store div,
 #wiki div,
 #vote div,
 #discord div,
 #quizzes div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
-  width: 70%;
+  color: white;
 }
 
 #store h1,
@@ -325,15 +312,6 @@ td {
 #discord h1 {
   font-size: 70px;
   text-align: center;
-}
-
-.left {
-  flex: 1;
-}
-
-.right {
-  flex: 2;
-  padding: 5%;
 }
 
 button {
