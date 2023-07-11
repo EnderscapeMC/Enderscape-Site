@@ -257,11 +257,11 @@ td {
   text-align: center;
 }
 
-#store section.col-5,
-#wiki section.col-5,
-#vote section.col-5,
-#discord section.col-5 {
-  padding: 35px 0px;
+#store section.col-4,
+#wiki section.col-4,
+#vote section.col-4,
+#discord section.col-4 {
+  padding: 30px 0px;
 }
 
 button {
