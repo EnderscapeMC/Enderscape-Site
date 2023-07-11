@@ -132,7 +132,7 @@
                         <?php include('../includes/mcmmo_database.php'); ?>
                     </div>
                 </div>
-                <div id="leaderboard-anchor" style="display: none;"></div>
+                <div id="leaderboard-anchor"></div>
                 <div class="row">
                     <div class="col-4">
                         <h3>Rank Leaderboard</h3>
