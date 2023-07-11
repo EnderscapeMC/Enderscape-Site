@@ -441,12 +441,6 @@ footer a:hover {
   #leaderboards section {
     width: 40% !important;
   }
-}
-
-@media (max-width: 850px) {
-  #leaderboards section {
-    width: 70% !important;
-  }
 
   #store .col-2, #store .col-3, #store .col-5,
   #wiki .col-2, #wiki .col-3, #wiki .col-5,
@@ -464,6 +458,12 @@ footer a:hover {
 
   h1 {
     margin: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  #leaderboards section {
+    width: 70% !important;
   }
 }
 
