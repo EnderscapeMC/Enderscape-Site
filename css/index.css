@@ -17,6 +17,7 @@
 
 [class*="col-"] {
   float: left; 
+  padding: 5px;
   border: 1px solid red;
 }
 
