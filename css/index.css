@@ -235,11 +235,27 @@ svg.bottom {
   filter: drop-shadow(0px 17px 10px rgba(0, 0, 0, 0.5));
 }
 
-@media (max-width: 1585px) {
+@media (max-width: 1700px) {
   #leaderboards section .col-1, #leaderboards section .col-2, #leaderboards section .col-3, #leaderboards section .col-4, 
   #leaderboards section .col-5, #leaderboards section .col-6, #leaderboards section .col-7, #leaderboards section .col-8, 
   #leaderboards section .col-9, #leaderboards section .col-10, #leaderboards section .col-11 {
     width: 100%;
+  }
+
+  #leaderboards section {
+    width: 30% !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  #leaderboards section {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 850px) {
+  #leaderboards section {
+    width: 70% !important;
   }
 }
 
