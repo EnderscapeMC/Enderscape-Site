@@ -55,6 +55,10 @@ body {
   }
 }
 
+h3 {
+  margin: 10px 0px 10px 0px;
+}
+
 nav {
   background: rgba(25, 25, 25, 0.9);
   overflow: hidden;
@@ -282,10 +286,6 @@ svg.bottom {
 table#leaderboard-table {
   margin-bottom: 20px;
   border-collapse: collapse;
-}
-
-h3 {
-  margin: 10px 0px 10px 0px;
 }
 
 tr {
