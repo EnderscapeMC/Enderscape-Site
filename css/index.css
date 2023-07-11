@@ -305,6 +305,7 @@ td {
   margin: 0 auto;
   color: white;
   background-color: rgb(25, 25, 25);
+  padding: 40px 0px;
 }
 
 #store h1,
@@ -313,6 +314,13 @@ td {
 #discord h1 {
   font-size: 70px;
   text-align: center;
+}
+
+#store section.col-5,
+#wiki section.col-5,
+#vote section.col-5,
+#discord section.col-5 {
+  padding: 40px 0px;
 }
 
 button {
