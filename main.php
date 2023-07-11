@@ -119,31 +119,30 @@
             </svg>
             <section>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-4">
                         <h3>Balance Leaderboard</h3>
                         <?php include('../includes/balance_cmi_database.php'); ?>
                     </div>
-                    <div class="col-6">
+                    <div class="col-4">
                         <h3>Lands Leaderboard</h3>
                         <?php include('../includes/lands_database.php'); ?>
                     </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-6">
+                    <div class="col-4">
                         <h3>McMMO Power Leaderboard</h3>
                         <?php include('../includes/mcmmo_database.php'); ?>
                     </div>
-                    <div class="col-6">
+                </div>
+                <div id="leaderboard-anchor"></div>
+                <div class="row">
+                    <div class="col-4">
                         <h3>Rank Leaderboard</h3>
                         <?php include('../includes/rank_cmi_database.php'); ?>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
+                    <div class="col-4">
                         <h3>Vote Leaderboard</h3>
                         <?php include('../includes/votes_cmi_database.php'); ?>
                     </div>
-                    <div class="col-6">
+                    <div class="col-4">
                         <h3>Playtime Leaderboard</h3>
                         <?php include('../includes/playtime_cmi_database.php'); ?>
                     </div>
