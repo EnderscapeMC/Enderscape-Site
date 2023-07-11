@@ -447,7 +447,7 @@ footer a:hover {
   #wiki .col-2, #wiki .col-3, #wiki .col-4,
   #vote .col-2, #vote .col-3, #vote .col-4, 
   #discord .col-2, #discord .col-3, #discord .col-4, 
-  #quizzes .col-2, #quizzes .col-3, #quizzes .col-4 {
+  #quizzes .col-2, #quizzes .col-3, #quizzes .col-5 {
     width: 100%;
     padding: 0px 50px !important;
     text-align: center;
