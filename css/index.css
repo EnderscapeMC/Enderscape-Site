@@ -429,13 +429,13 @@ footer a:hover {
   } 
 
   #leaderboards section {
-    width: 40%;
+    width: 40% !important;
   }
 }
 
 @media (max-width: 850px) {
   #leaderboards section {
-    width: 70%;
+    width: 70% !important;
   }
 }
 
@@ -467,11 +467,11 @@ footer a:hover {
 
 @media (max-width: 485px) {
   .rank {
-    display: none;
+    display: none !important;
   }
 
   th, td {
-    font-size: 14px;
-    padding-left: 0px;
+    font-size: 14px !important;
+    padding-left: 0px !important;
   }
 }
