@@ -387,15 +387,25 @@ footer a:hover {
 }
 
 /* media queries */
+@media screen and (max-width: 1700px) {
+  #leaderboards section .col-1, #leaderboards section .col-2, #leaderboards section .col-3, #leaderboards section .col-4, 
+  #leaderboards section .col-5, #leaderboards section .col-6, #leaderboards section .col-7, #leaderboards section .col-8, 
+  #leaderboards section .col-9, #leaderboards section .col-10, #leaderboards section .col-11 {
+    width: 100%;
+  }
+
+  #leaderboards section {
+    width: 30% !important;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
-}
 
-@media screen and (max-width: 1100px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
       position: absolute;
@@ -417,6 +427,16 @@ footer a:hover {
   .topnav.responsive a.firstmenu {
       padding-top: 60px;    
   } 
+
+  #leaderboards section {
+    width: 40%;
+  }
+}
+
+@media (max-width: 850px) {
+  #leaderboards section {
+    width: 70%;
+  }
 }
 
 @media (max-width: 720px) {
@@ -437,35 +457,11 @@ footer a:hover {
   }
 
   header h3 {
-    font-size: 16px !important;
+    font-size: 16px;
   }
 
   #ip {
-    width: 230px !important;
-  }
-}
-
-@media (max-width: 1700px) {
-  #leaderboards section .col-1, #leaderboards section .col-2, #leaderboards section .col-3, #leaderboards section .col-4, 
-  #leaderboards section .col-5, #leaderboards section .col-6, #leaderboards section .col-7, #leaderboards section .col-8, 
-  #leaderboards section .col-9, #leaderboards section .col-10, #leaderboards section .col-11 {
-    width: 100%;
-  }
-
-  #leaderboards section {
-    width: 30% !important;
-  }
-}
-
-@media (max-width: 1100px) {
-  #leaderboards section {
-    width: 40% !important;
-  }
-}
-
-@media (max-width: 850px) {
-  #leaderboards section {
-    width: 70% !important;
+    width: 230px;
   }
 }
 
@@ -475,7 +471,7 @@ footer a:hover {
   }
 
   th, td {
-    font-size: 14px !important;
-    padding-left: 0px !important;
+    font-size: 14px;
+    padding-left: 0px;
   }
 }
