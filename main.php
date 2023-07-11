@@ -210,7 +210,7 @@
                     <p>Test your Enderscape knowledge with our collection of quizzes.</p>
                     <button type="button" onclick="window.open('#', '_blank')">Suggest a Quiz</button>
                 </section>
-                <section class="col-4">
+                <section class="col-5">
                     <ul>
                         <a href="../html/lore-quiz.html">
                             <li>
@@ -241,7 +241,7 @@
                         </a>
                     </ul>
                 </section>
-                <div class="col-3"></div>
+                <div class="col-2"></div>
             </div>
             <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="top">
                 <path d="M0 88L25 93.2C50 98.3 100 108.7 150 110C200 111.3 250 103.7 300 96.7C350 89.7 400 83.3 450 85.3C500 87.3 550 97.7 600 104.2C650 110.7 700 113.3 750 113.8C800 114.3 850 112.7 900 107.8C950 103 1000 95 1050 94.2C1100 93.3 1150 99.7 1175 102.8L1200 106L1200 121L1175 121C1150 121 1100 121 1050 121C1000 121 950 121 900 121C850 121 800 121 750 121C700 121 650 121 600 121C550 121 500 121 450 121C400 121 350 121 300 121C250 121 200 121 150 121C100 121 50 121 25 121L0 121Z" fill="#191919" stroke-linecap="round" stroke-linejoin="miter"></path>
