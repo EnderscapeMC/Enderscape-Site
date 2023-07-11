@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  background-color: none;
+  background-color: rgb(25, 25, 25);
   margin: auto;
 }
 
@@ -304,7 +304,6 @@ td {
 #quizzes div {
   margin: 0 auto;
   color: white;
-  background-color: rgb(25, 25, 25);
   padding: 40px 0px;
 }
 
