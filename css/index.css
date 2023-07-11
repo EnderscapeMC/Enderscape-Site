@@ -236,10 +236,34 @@ svg.bottom {
 }
 
 @media (max-width: 1585px) {
-  #leaderboards section .col-1, #leaderboards section .col-2, #leaderboards section .col-3, #leaderboards section .col-4, 
-  #leaderboards section .col-5, #leaderboards section .col-6, #leaderboards section .col-7, #leaderboards section .col-8, 
-  #leaderboards section .col-9, #leaderboards section .col-10, #leaderboards section .col-11 {
-    width: 100%;
+  #leaderboards section .col-1,
+  #leaderboards section .col-2,
+  #leaderboards section .col-3,
+  #leaderboards section .col-4,
+  #leaderboards section .col-5,
+  #leaderboards section .col-6,
+  #leaderboards section .col-7,
+  #leaderboards section .col-8,
+  #leaderboards section .col-9,
+  #leaderboards section .col-10,
+  #leaderboards section .col-11 {
+    width: 50%; 
+  }
+}
+
+@media (max-width: 1100px) {
+  #leaderboards section .col-1,
+  #leaderboards section .col-2,
+  #leaderboards section .col-3,
+  #leaderboards section .col-4,
+  #leaderboards section .col-5,
+  #leaderboards section .col-6,
+  #leaderboards section .col-7,
+  #leaderboards section .col-8,
+  #leaderboards section .col-9,
+  #leaderboards section .col-10,
+  #leaderboards section .col-11 {
+    width: 100%; 
   }
 }
 
