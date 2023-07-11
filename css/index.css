@@ -103,38 +103,6 @@ nav a:active {
   padding: 5px 40px;
 }
 
-@media screen and (max-width: 1100px) {
-  .topnav a {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-  }   
-
-  .topnav.responsive a {
-      float: none;
-      display: flex;
-  }
-
-  .topnav.responsive a.menuitem,
-  .topnav.responsive a.firstmenu {
-      justify-content: right;
-      padding-right: 40px;
-  }
-
-  .topnav.responsive a.firstmenu {
-      padding-top: 60px;    
-  } 
-}
-
 header {
   text-align: center;
   color: rgba(255, 255, 255);
@@ -185,32 +153,6 @@ a:hover#ip {
   font-weight: bold;
 }
 
-@media (max-width: 720px) {
-  #title {
-    font-size: 80px;
-  }
-}
-
-@media (max-width: 600px) {
-  #title {
-    font-size: 60px;
-  }
-}
-
-@media (max-width: 400px) {
-  #title {
-    font-size: 40px;
-  }
-
-  header h3 {
-    font-size: 16px !important;
-  }
-
-  #ip {
-    width: 230px !important;
-  }
-}
-
 #notification {
   display: none;
   padding: 10px;
@@ -233,41 +175,6 @@ svg.bottom {
   margin-top: -5px;
   margin-bottom: -100px;
   filter: drop-shadow(0px 17px 10px rgba(0, 0, 0, 0.5));
-}
-
-@media (max-width: 1700px) {
-  #leaderboards section .col-1, #leaderboards section .col-2, #leaderboards section .col-3, #leaderboards section .col-4, 
-  #leaderboards section .col-5, #leaderboards section .col-6, #leaderboards section .col-7, #leaderboards section .col-8, 
-  #leaderboards section .col-9, #leaderboards section .col-10, #leaderboards section .col-11 {
-    width: 100%;
-  }
-
-  #leaderboards section {
-    width: 30% !important;
-  }
-}
-
-@media (max-width: 1100px) {
-  #leaderboards section {
-    width: 40% !important;
-  }
-}
-
-@media (max-width: 850px) {
-  #leaderboards section {
-    width: 70% !important;
-  }
-}
-
-@media (max-width: 485px) {
-  .rank {
-    display: none;
-  }
-
-  th, td {
-    font-size: 14px !important;
-    padding-left: 0px !important;
-  }
 }
 
 #leaderboards {
@@ -477,4 +384,98 @@ footer a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* media queries */
+@media screen and (max-width: 1100px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }   
+
+  .topnav.responsive a {
+      float: none;
+      display: flex;
+  }
+
+  .topnav.responsive a.menuitem,
+  .topnav.responsive a.firstmenu {
+      justify-content: right;
+      padding-right: 40px;
+  }
+
+  .topnav.responsive a.firstmenu {
+      padding-top: 60px;    
+  } 
+}
+
+@media (max-width: 720px) {
+  #title {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  #title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  #title {
+    font-size: 40px;
+  }
+
+  header h3 {
+    font-size: 16px !important;
+  }
+
+  #ip {
+    width: 230px !important;
+  }
+}
+
+@media (max-width: 1700px) {
+  #leaderboards section .col-1, #leaderboards section .col-2, #leaderboards section .col-3, #leaderboards section .col-4, 
+  #leaderboards section .col-5, #leaderboards section .col-6, #leaderboards section .col-7, #leaderboards section .col-8, 
+  #leaderboards section .col-9, #leaderboards section .col-10, #leaderboards section .col-11 {
+    width: 100%;
+  }
+
+  #leaderboards section {
+    width: 30% !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  #leaderboards section {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 850px) {
+  #leaderboards section {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 485px) {
+  .rank {
+    display: none;
+  }
+
+  th, td {
+    font-size: 14px !important;
+    padding-left: 0px !important;
+  }
 }
