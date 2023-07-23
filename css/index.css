@@ -495,6 +495,17 @@ footer a:hover {
   }
 }
 
+@media (max-width: 485px) {
+  .rank {
+    display: none !important;
+  }
+
+  th, td {
+    font-size: 14px !important;
+    padding-left: 0px !important;
+  }
+}
+
 @media (max-width: 400px) {
   #title {
     font-size: 40px;
@@ -507,15 +518,13 @@ footer a:hover {
   #ip, #notification {
     width: 230px;
   }
-}
 
-@media (max-width: 485px) {
-  .rank {
-    display: none !important;
+  #quizzes li {
+    width: 260px;
   }
 
-  th, td {
-    font-size: 14px !important;
-    padding-left: 0px !important;
+  #quizzes li h2 {
+    font-size: 15px;
+    padding-right: 20px;
   }
 }
