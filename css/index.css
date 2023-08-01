@@ -31,8 +31,12 @@
   display: table;
 }
 
+h1, h2, h3, h4 {
+  font-family: "04B", sans-serif !important;
+}
+
 html {
-  font-family: "04B", sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
