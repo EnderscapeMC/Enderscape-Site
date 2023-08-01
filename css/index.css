@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "04B";
+  src: url("../fonts/04B_30_.TTF") format("truetype");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -27,7 +32,7 @@
 }
 
 html {
-  font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "04B", sans-serif;
 }
 
 body {
