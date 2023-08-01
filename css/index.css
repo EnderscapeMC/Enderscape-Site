@@ -3,6 +3,11 @@
   src: url("../fonts/04B_30_.TTF") format("truetype");
 }
 
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -36,7 +41,7 @@ h1, h2, h3, h4 {
 }
 
 html {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 body {
