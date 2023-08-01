@@ -36,7 +36,8 @@ h1, h2 {
 }
 
 html {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: calibri;
+  letter-spacing: 1px;
 }
 
 body {
@@ -126,6 +127,10 @@ header {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+h3#subtitle {
+  font-size: 25px;
 }
 
 #title {
