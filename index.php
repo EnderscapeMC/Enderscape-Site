@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <script src="js/index.js"></script> 
-        <title>Home</title>
+        <title>Enderscape</title>
     </head>
     <body>
         <div id="home">
